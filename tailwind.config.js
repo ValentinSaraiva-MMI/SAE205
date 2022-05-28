@@ -6,9 +6,13 @@ module.exports = {
   theme: {
     extend: {
       "colors": {
-        // Ici vos couleurs exportées de Figma
+        "noir": "#262626",
+        "Beige": {
+          "150": "#d4cebd"
+        }
       },
       "fontFamily": {
+        "oswald": "Oswald"
         // Ici vos familles de polices exportées de Figma
         // Ne pas oublier de les charger dans '/index.html' !
       },

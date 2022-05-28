@@ -1,19 +1,38 @@
 <template>
-  <header>
-    <icon-logo />
-    <FilmIcon class="h-5 w-5 fill-blue-300 stroke-blue-600" />
-    <nav>
-      <RouterLink to="/" class="text-blue-600 underline">Accueil</RouterLink>
-    </nav>
-  </header>
+ <div class="font-oswald text-Beige-150">
+   Test
+</div>
 
-  <RouterView />
+
+ <logofestival />
+
+
+
 </template>
 
 <script>
-import IconLogo from "./components/icons/IconLogo.vue";
-import { FilmIcon } from "@heroicons/vue/outline";
+//logo Menu Hamburger 
+
+//logo festival 
+import logofestival from '../src/components/icons/logofestival.vue';
+//logo reseau sociaux 
+import LogoFacebook from '../src/components/icons/Facebook.vue';
+import LogoTwitter from '../src/components/icons/Twitter.vue';
+import LogoYoutube from '../src/components/icons/Youtube.vue';
+import LogoInstagram from '../src/components/icons/Instagram.vue';
+//logo map,localisation, mail 
+import Mail from '../src/components/icons/Mail.vue';
+import Map from '../src/components/icons/Map.vue';
+import Phone from '../src/components/icons/Phone.vue';
+
+
+
+
 export default {
-  components: { IconLogo, FilmIcon },
+  components: {logofestival,LogoFacebook,LogoInstagram,LogoYoutube,LogoTwitter,Mail,Map,Phone,},
 };
 </script>
+
+
+
+

@@ -1,10 +1,10 @@
 <template>
- <div class="font-oswald text-Beige-150">
-   Test
+
+<div class="inline-flex w-full">
+<logofestival class="w-7 ml-3 "/>
+<navbar />
+
 </div>
-
-
- <logofestival />
 
 
 
@@ -12,7 +12,7 @@
 
 <script>
 //logo Menu Hamburger 
-
+import MenuHamburger from "../src/components/icons/HamburgerMenue.vue"
 //logo festival 
 import logofestival from '../src/components/icons/logofestival.vue';
 //logo reseau sociaux 
@@ -24,12 +24,14 @@ import LogoInstagram from '../src/components/icons/Instagram.vue';
 import Mail from '../src/components/icons/Mail.vue';
 import Map from '../src/components/icons/Map.vue';
 import Phone from '../src/components/icons/Phone.vue';
+import HamburgerMenue from "../src/components/icons/HamburgerMenue.vue";
+import Navbar from './components/navbar.vue';
 
 
 
 
 export default {
-  components: {logofestival,LogoFacebook,LogoInstagram,LogoYoutube,LogoTwitter,Mail,Map,Phone,},
+  components: { logofestival, LogoFacebook, LogoInstagram, LogoYoutube, LogoTwitter, Mail, Map, Phone, MenuHamburger, HamburgerMenue, Navbar,},
 };
 </script>
 

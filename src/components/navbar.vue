@@ -6,11 +6,11 @@
 <ul class="hidden z-50 flex-auto x-justify-center gap-2 md:flex ">
   <!-- Autre menu -->
  
-  <li class="flex flex-auto mx-2 text-base font-oswald text-Beige-150 "><router-link to="/">Programmation</router-link></li>
-  <li class="flex flex-auto mx-2  text-base font-oswald text-Beige-150" ><router-link to="/">Artiste</router-link></li>
+  <li class="flex flex-auto mx-2 text-base font-oswald text-Beige-150 "><router-link to="/AccueilView">Programmation</router-link></li>
+  <li class="flex flex-auto mx-2  text-base font-oswald text-Beige-150" ><router-link to="/Test">Artiste</router-link></li>
   <li class="flex flex-auto mx-2  text-base font-oswald text-Beige-150" ><router-link to="/">Festival</router-link></li>
     <li class="flex flex-auto mx-2 text-base font-oswald text-Beige-150" ><router-link to="/">Contact</router-link></li>
- 
+
  
 </ul>
 
@@ -19,14 +19,15 @@
     </div>
 </template>
 
-<script>
-import home from "./icons/home.vue";
+<script >
+
 
 import HamburgerMenueVue from "./icons/HamburgerMenue.vue";
 
+
 export default {
  name: "navbar",
- components: {home,HamburgerMenueVue},
+ components: {HamburgerMenueVue},
 
 }
 </script>

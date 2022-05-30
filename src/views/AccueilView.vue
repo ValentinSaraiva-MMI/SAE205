@@ -141,9 +141,9 @@ image2="public/images/goodies/tshirtrampage1.png">
 <div class="flex justify-center">
 
  <RouterLink class="mx-2 " to="/contact">
-Conhhact 
+Contact 
 </RouterLink>
-
+<p->-</p->
  <RouterLink class="mx-2 " to="/mentionlegale">
 <p>Mentions légales  </p>
 </RouterLink>

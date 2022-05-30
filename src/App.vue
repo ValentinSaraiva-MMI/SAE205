@@ -5,8 +5,12 @@
 <div class="inline-flex w-full">
 <logofestival class="w-8 ml-3 "/>
 <navbar />
-
 </div>
+</div>
+
+<router-view />
+
+<!--     
 
 <div class="z-50">
 <div class="text-5xl text-Beige-150 z-40  font-oswald ml-5">
@@ -45,7 +49,7 @@
 <titres1 />
 </div>
 
-<!--    -->
+
 <div class="flex justify-center -mt-48" >
  <RouterLink to="/festival">
 <boutonstroke-view >
@@ -73,7 +77,7 @@
 </div>
 </div>
 
- 
+  -->
 
 
 </template>

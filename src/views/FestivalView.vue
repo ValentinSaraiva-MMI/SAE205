@@ -66,34 +66,35 @@
 
 
 
-
- <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(22rem,1fr))] max-w-7xl m-auto">
+<!-- Nom et fonction à ajouter-->
+ <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(22rem,1fr))] max-w-7xl ">
  
    <card image="public\images\collaborateurs\Rectangle 59-1.png"
+job="lol"
         />
 
-           <card image="public\images\collaborateurs\Rectangle 59-1.png"
+           <card image="public\images\collaborateurs\pexels-rene-asmussen-325685 1.png"
         />
 
-           <card image="public\images\collaborateurs\Rectangle 59-1.png"
+           <card image="public\images\collaborateurs\Rectangle 59-2.png"
         />
 
-    <card image="public\images\collaborateurs\Rectangle 59-1.png"
+    <card image="public\images\collaborateurs\Rectangle 59-3.png"
         />
 
-           <card image="public\images\collaborateurs\Rectangle 59-1.png"
+           <card image="public\images\collaborateurs\Rectangle 59-4.png"
         />
 
-           <card image="public\images\collaborateurs\Rectangle 59-1.png"
+           <card image="public\images\collaborateurs\Rectangle 59-5.png"
         />
 
-          <card image="public\images\collaborateurs\Rectangle 59-1.png"
+          <card image="public\images\collaborateurs\Rectangle 59-6.png"
         />
 
-           <card image="public\images\collaborateurs\Rectangle 59-1.png"
+           <card image="public\images\collaborateurs\Rectangle 59-7.png"
         />
 
-           <card image="public\images\collaborateurs\Rectangle 59-1.png"
+           <card image="public\images\collaborateurs\amelie.png"
         />
 
     </div>

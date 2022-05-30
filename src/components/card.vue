@@ -1,9 +1,12 @@
 <template>
     <figure class="flex flex-col w-auto h-auto m-4">
         <img
-            class="w-full h-48 object-cover rounded-t-lg"
+            class="w-52   h-52 object-cover rounded-t-lg"
             :src=image
             alt="image de personne" />
+            <p :src=Nom />
+            <p :src=job />
+
 
   
     </figure>
@@ -16,6 +19,13 @@ export default {
  components: {},
  props:{
      image:{
+         type: String,
+     },
+
+       Nom:{
+         type: String,
+     },
+        job:{
          type: String,
      },
  }

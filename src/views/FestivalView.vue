@@ -58,6 +58,48 @@
   ><br />
 </p>
 </div>
+<BoutonstrokeView class="flex justify-center pb-3">Billeterie</BoutonstrokeView>
+
+<div class="bg-Beige-150 ">
+<p class="text-[25.00978660583496px] xl:text-7xl  md:text-5xl sm:text-4xl font-medium text-left">UNE EQUIPE</p>
+<div class="w-4/12 mt-1 h-2 z-40 bg-noir"></div>
+
+
+
+
+ <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(22rem,1fr))] max-w-7xl m-auto">
+ 
+   <card image="public\images\collaborateurs\Rectangle 59-1.png"
+        />
+
+           <card image="public\images\collaborateurs\Rectangle 59-1.png"
+        />
+
+           <card image="public\images\collaborateurs\Rectangle 59-1.png"
+        />
+
+    <card image="public\images\collaborateurs\Rectangle 59-1.png"
+        />
+
+           <card image="public\images\collaborateurs\Rectangle 59-1.png"
+        />
+
+           <card image="public\images\collaborateurs\Rectangle 59-1.png"
+        />
+
+          <card image="public\images\collaborateurs\Rectangle 59-1.png"
+        />
+
+           <card image="public\images\collaborateurs\Rectangle 59-1.png"
+        />
+
+           <card image="public\images\collaborateurs\Rectangle 59-1.png"
+        />
+
+    </div>
+    </div>
+
+
 
  </div>
  
@@ -65,11 +107,12 @@
 </template>
 
 <script>
+import BoutonstrokeView from '../components/BoutonstrokeView.vue';
+import card from '../components/card.vue';
+import Card1 from '../components/card.vue';
 export default {
-    name: 'FestivalView',
-
-
- 
-  }
+    name: "FestivalView",
+    components: { BoutonstrokeView, card, Card1 }
+}
 
 </script>

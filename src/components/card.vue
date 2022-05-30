@@ -16,7 +16,7 @@
 
 export default {
  name: "card",
- components: {},
+ components: {}, 
  props:{
      image:{
          type: String,

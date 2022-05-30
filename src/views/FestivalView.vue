@@ -67,7 +67,7 @@
 
 
 <!-- Nom et fonction à ajouter-->
- <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(22rem,1fr))] max-w-7xl ">
+ <div class=" mx-auto grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(22rem,1fr))] max-w-7xl ">
  
    <card image="public\images\collaborateurs\Rectangle 59-1.png"
 job="lol"
@@ -164,13 +164,23 @@ job="lol"
   >
     QUELQUES STATS
   </p>
-  <div class="w-4/12 h-2 bg-noir mt-2 z-50"></div>
+  <div class="w-4/12  sm:w-5/12  h-2 bg-noir mt-2 z-50"></div>
 
-
+<!--Box Statistique : responsive à ammeliorer -->
+<div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(22rem,1fr))] max-w-full ">
    <boxVue
-    nbr="19"
-    texte="Match organisés "/>
+    nbr="18"
+    texte="Groupe présent "/>
 
+     <boxVue
+    nbr="32,851"
+    texte="Spectateurs présent "/>
+
+    
+     <boxVue
+    nbr="75,000"
+    texte="Litre de biére bu"/>
+</div>
     </div>
 
 

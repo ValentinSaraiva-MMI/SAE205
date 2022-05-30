@@ -122,11 +122,36 @@ image2="public/images/goodies/tshirtrampage1.png">
 <Instagram class="w-5"/>
 </div>
 
-<div class="pt-3 bg-Beige-150">
+<div class="pt-3  bg-Beige-150">
 
+<div class="ml-2">
 <p class="text-base text-left text-neutral-800">ILS NOUS SOUTIENNENT</p>
 <div class="w-44 h-[5.03px] bg-neutral-800"></div>
 </div>
+
+<div class="flex justify-around mt-2">
+<img  class="w-14" src="public\images\partenaires\iutbm 1.png" alt="Ils nous soutiennent image">
+<img  class="w-14" src="public\images\partenaires\MMi_logo 1.png" alt="Ils nous soutiennent image">
+<img class="w-14 h-14"  src="public\images\partenaires\logo RBFC.png" alt="Ils nous soutiennent image">
+<img class="w-14"  src="public\images\partenaires\peugeot logo_ 1.png" alt="Ils nous soutiennent image">
+</div>
+
+
+
+<div class="flex justify-center">
+
+ <RouterLink class="mx-2 " to="/contact">
+Conhhact 
+</RouterLink>
+
+ <RouterLink class="mx-2 " to="/mentionlegale">
+<p>Mentions légales  </p>
+</RouterLink>
+
+</div>
+
+</div>
+
 
 
 

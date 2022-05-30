@@ -10,6 +10,8 @@
 
 <router-view />
 
+
+
 <!--     
 
 <div class="z-50">
@@ -115,12 +117,13 @@ import undertitle1 from './components/Rampage3.vue';
 import Rampage3 from './components/Rampage3.vue';
 import titres1 from './components/Titre1.vue';
 import BoutonstrokeView from './components/BoutonstrokeView.vue';
+import BoutonstrokeView1 from './components/BoutonstrokeView.vue';
 
 
 
 
 export default {
-  components: { boutonstroke, titres1, undertitle1, Bouton1, logofestival, LogoFacebook, LogoInstagram, LogoYoutube, LogoTwitter, Mail, Map, Phone, MenuHamburger, HamburgerMenue, Navbar, Bouton1View, Rampage3, BoutonstrokeView },
+  components: { boutonstroke, titres1, undertitle1, Bouton1, logofestival, LogoFacebook, LogoInstagram, LogoYoutube, LogoTwitter, Mail, Map, Phone, MenuHamburger, HamburgerMenue, Navbar, Bouton1View, Rampage3, BoutonstrokeView, BoutonstrokeView1 },
 };
 </script>
 

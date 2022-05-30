@@ -87,6 +87,42 @@
 <Titre2View />
 </div>
 
+<p class="flex justify-end text-sm text-Beige-150">
+  Soutenez le festival en vous achetant un souvenir
+</p>
+
+<boutonstroke class="text-xs flex justify-end mr-4">
+  <P>Voir la boutique</P>
+</boutonstroke>
+
+
+<!--A REVOIR -->
+
+<div class="grid grid-cols-2 gap-2">     
+<CardgoodiesViewVue image1="public/images/goodies/ecocup 1.png" 
+image2="public\images\goodies\sweat rampage_ 1.png">
+<p>GOODIES</p>
+  </CardgoodiesViewVue>
+
+
+ 
+
+
+  <CardgoodiesViewVue image1="public\images\goodies\sweat rampage_ 1-1.png" 
+image2="public/images/goodies/tshirtrampage1.png">
+<p>VETEMENTS </p>
+
+
+  </CardgoodiesViewVue>
+
+  
+
+
+
+</div>
+
+
+
 
 </div>
 
@@ -132,6 +168,7 @@ import slider from '../components/SliderView.vue';
 import SliderView from '../components/SliderView.vue';
 import Titre2View from '../components/Titre2View.vue';
 import Titre2View1 from '../components/Titre2View.vue';
+import CardgoodiesViewVue from '../components/CardgoodiesView.vue';
 
 
 
@@ -141,7 +178,7 @@ import Titre2View1 from '../components/Titre2View.vue';
 
 
 export default {
-  components: { Titre2View, boutonstroke, titres1, undertitle1, Bouton1, logofestival, LogoFacebook, LogoInstagram, LogoYoutube, LogoTwitter, Mail, Map, Phone, MenuHamburger, HamburgerMenue, Navbar, Bouton1View, Rampage3, SliderView, Titre2View1 },
+  components: {CardgoodiesViewVue, Titre2View, boutonstroke, titres1, undertitle1, Bouton1, logofestival, LogoFacebook, LogoInstagram, LogoYoutube, LogoTwitter, Mail, Map, Phone, MenuHamburger, HamburgerMenue, Navbar, Bouton1View, Rampage3, SliderView, Titre2View1 },
 };
 </script>
 

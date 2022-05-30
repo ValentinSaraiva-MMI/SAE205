@@ -181,6 +181,20 @@ job="lol"
     nbr="75,000"
     texte="Litre de biére bu"/>
 </div>
+
+
+<div class="flex justify-center">
+
+ <RouterLink class="mx-2 " to="/contact">
+Contact 
+</RouterLink>
+<p->-</p->
+ <RouterLink class="mx-2 " to="/mentionlegale">
+<p>Mentions légales  </p>
+</RouterLink>
+
+</div>
+
     </div>
 
 

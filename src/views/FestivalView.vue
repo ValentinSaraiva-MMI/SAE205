@@ -19,13 +19,45 @@
   </p>
 </div>
 
-<img src="src\components\icons\flechedown.png" alt=" icone fleche bas ">
+<div class="flex justify-center">
+<img  class=" md:w-8   w-5 relative -top-10" src="src\components\icons\flechedown.png" alt=" icone fleche bas ">
+</div>
+
+<div class=" flex justify-end">
+<div class="w-[188px] h-[47.71px]  xl:w-96  xl relative right-0 ">
+  <p
+    class=" xl:text-7xl  absolute right-0 top-[1.24px] text-[26.677793502807617px] font-medium text-left text-[#d4cebd]"
+  >
+    UNE HISTOIRE
+  </p>
+  <div class="w-[188px] h-[3.77px] absolute right-0 top-[41.13px] bg-[#d4cebd]"></div>
+</div>
+</div>
 
 
-
-
-
-
+<!--Texte (respnsive à revoir)-->
+<div class="flex justify-center xl:mt-28  ">
+  <p class="w-5/6  text-lg font-medium  lg:text-4xl  text-left text-[#d4cebd]">
+  <span class=" text-lg font-medium text-left text-[#d4cebd]"
+    >Comme tous bon projet qui se respecte au départ le Rampage c’est avant tout une idée. </span
+  ><br /><span class=" text-lg font-medium text-left text-[#d4cebd]"
+    >Celle de concevoir un nouveau festival de musique dans notre beau patelin de Franche-Comté en
+    partant de rien, juste de la bonne volonté et beaucoup d’huile de coude à revendre </span
+  ><br /><span class=" text-lg font-medium text-left text-[#d4cebd]"> </span
+  ><br /><span class=" text-lg font-medium text-left text-[#d4cebd]"
+    >Au départ ça à été laborieux, mais en réussissant à promouvoir de jeunes artistes talentueux
+    auprès de notre public fraîchement acquis, le rampage à réussi à mobiliser durant sa premières
+    éditions, pas moins de 10 000 personnes et à même tripler cette effectif l’année suivante. </span
+  ><br /><span class=" text-lg font-medium text-left text-[#d4cebd]"> </span
+  ><br /><span class=" text-lg font-medium text-left text-[#d4cebd]"
+    >Après tout le chemin que nous avons parcourus, cette fois-ci, en réunissant des légendes du
+    rock, et du métal telle que Bertrand Cantat où Trust, nous vous attendons encore plus nombreux </span
+  ><br /><span class=" text-lg font-medium text-left text-[#d4cebd]"> </span
+  ><br /><span class=" text-lg font-medium text-left text-[#d4cebd]"
+    >Alors commandez vos places maintenant, et venez écrire l’histoire avec nous </span
+  ><br />
+</p>
+</div>
 
  </div>
  

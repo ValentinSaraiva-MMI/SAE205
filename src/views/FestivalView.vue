@@ -154,17 +154,30 @@ job="lol"
             <img src="../../public/images/souvenires/erik-mclean-zgSC_LEWw20-unsplash 1.png"
                 alt="image">
         </div>
+    </div>
+     <div class="bg-Beige-150">
+     
+    
+   
+  <p
+    class="  lg:text-5xl  xl:text-7xl   text-[26.677793502807617px] font-medium  text-noir"
+  >
+    QUELQUES STATS
+  </p>
+  <div class="w-4/12 h-2 bg-noir mt-2 z-50"></div>
 
-        <div class="w-full rounded col-span-2 row-span-1">
-            <img src="public\images\souvenirs2\6.png"
-                alt="image">
-        </div>
+
+   <boxVue
+    nbr="19"
+    texte="Match organisés "/>
+
+    </div>
+
+
 
         
-         
       
-      
-    </div>
+
 </div>
 
  </div>
@@ -173,12 +186,13 @@ job="lol"
 </template>
 
 <script>
+import boxVue from '../components/box.vue';
 import BoutonstrokeView from '../components/BoutonstrokeView.vue';
 import card from '../components/card.vue';
 import Card1 from '../components/card.vue';
 export default {
     name: "FestivalView",
-    components: { BoutonstrokeView, card, Card1 }
+    components: { boxVue, BoutonstrokeView, card, Card1 }
 }
 
 </script>

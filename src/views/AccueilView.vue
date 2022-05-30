@@ -106,21 +106,27 @@ image2="public\images\goodies\sweat rampage_ 1.png">
 
 
  
-
-
   <CardgoodiesViewVue image1="public\images\goodies\sweat rampage_ 1-1.png" 
 image2="public/images/goodies/tshirtrampage1.png">
 <p>VETEMENTS </p>
-
-
   </CardgoodiesViewVue>
-
-  
 
 
 
 </div>
+ 
+<div class="flex justify-center gap-2">
+<Youtube class="w-5" /> 
+<Facebook class="w-5"/>
+<Twitter class="w-5"/>
+<Instagram class="w-5"/>
+</div>
 
+<div class="pt-3 bg-Beige-150">
+
+<p class="text-base text-left text-neutral-800">ILS NOUS SOUTIENNENT</p>
+<div class="w-44 h-[5.03px] bg-neutral-800"></div>
+</div>
 
 
 
@@ -148,7 +154,7 @@ import LogoTwitter from '../components/icons/Twitter.vue';
 import LogoYoutube from '../components/icons/Youtube.vue';
 import LogoInstagram from '../components/icons/Instagram.vue';
 
-//logo map,localisation, mail 
+//icones
 import Mail from '../components/icons/Mail.vue';
 import Map from '../components/icons/Map.vue';
 import Phone from '../components/icons/Phone.vue';
@@ -169,6 +175,10 @@ import SliderView from '../components/SliderView.vue';
 import Titre2View from '../components/Titre2View.vue';
 import Titre2View1 from '../components/Titre2View.vue';
 import CardgoodiesViewVue from '../components/CardgoodiesView.vue';
+import Youtube from '../components/icons/Youtube.vue';
+import Facebook from '../components/icons/Facebook.vue';
+import Twitter from '../components/icons/Twitter.vue';
+import Instagram from '../components/icons/Instagram.vue';
 
 
 
@@ -178,7 +188,7 @@ import CardgoodiesViewVue from '../components/CardgoodiesView.vue';
 
 
 export default {
-  components: {CardgoodiesViewVue, Titre2View, boutonstroke, titres1, undertitle1, Bouton1, logofestival, LogoFacebook, LogoInstagram, LogoYoutube, LogoTwitter, Mail, Map, Phone, MenuHamburger, HamburgerMenue, Navbar, Bouton1View, Rampage3, SliderView, Titre2View1 },
+  components: { CardgoodiesViewVue, Titre2View, boutonstroke, titres1, undertitle1, Bouton1, logofestival, LogoFacebook, LogoInstagram, LogoYoutube, LogoTwitter, Mail, Map, Phone, MenuHamburger, HamburgerMenue, Navbar, Bouton1View, Rampage3, SliderView, Titre2View1, Youtube, Facebook, Twitter, Instagram },
 };
 </script>
 

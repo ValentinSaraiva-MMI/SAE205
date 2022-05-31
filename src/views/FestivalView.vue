@@ -8,12 +8,12 @@
     class="w-auto h-auto "
   />
   <p
-    class="  xl:text-8xl  xl:pb-4  absolute left-[16.41px] top-[39.34px] text-[33.34638595581055px] font-medium text-left text-[#d4cebd]"
+    class=" font-oswald xl:text-8xl  xl:pb-4  absolute left-[16.41px] top-[39.34px] text-[33.34638595581055px] font-medium text-left text-[#d4cebd]"
   >
     LE RAMPAGE
   </p>
   <p
-    class="  xl:text-7xl  xl:mt-11   absolute left-[16.41px] top-[76.59px] text-[25.00978660583496px] font-medium text-left text-[#d4cebd]"
+    class=" font-oswald xl:text-7xl  xl:mt-11   absolute left-[16.41px] top-[76.59px] text-[25.00978660583496px] font-medium text-left text-[#d4cebd]"
   >
     C’EST QUOI ?...
   </p>
@@ -26,7 +26,7 @@
 <div class=" flex justify-end">
 <div class="w-[188px] h-[47.71px]  xl:w-96  xl relative right-0 ">
   <p
-    class=" xl:text-7xl  absolute right-0 top-[1.24px] text-[26.677793502807617px] font-medium text-left text-[#d4cebd]"
+    class="font-oswald xl:text-7xl  absolute right-0 top-[1.24px] text-[26.677793502807617px] font-medium text-left text-[#d4cebd]"
   >
     UNE HISTOIRE
   </p>

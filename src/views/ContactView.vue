@@ -113,15 +113,40 @@ Nous tâcherons de vous répondre dans les plus brefs délais."></textarea>
   </ul>  
 </li>
 
+<!--
 <div class="md:ml-16 mt-20">
-<p class="text-lg font-medium  font-oswald text-left md:text-3xl  xl:text-5xl text-[#d4cebd]">NOUS TROUVER</p>
+<p class="text-lg font-medium font-oswald text-left md:text-3xl  xl:text-5xl text-[#d4cebd]">NOUS TROUVER</p>
 <div class="w-1/6 mt-2 h-1 sm:h-3 bg-[#d4cebd] border border-[#d4cebd]"></div>
+</div>
+ -->
+
+<div class="  xl:w-96  xl ml-auto">
+  <p
+    class="font-oswald xl:text-7xl  text-[26.677793502807617px] font-medium ml-auto mr-auto text-Beige-150"
+  >
+   NOUS TROUVER
+  </p>
+  <div class="w-[188px]  h-[3.77px] md:h-2  bg-Beige-150"></div>
+</div>
+
+</div >
+<img class=" p-2 mr-auto  ml-auto" src="public\images\map.png" alt="map localisation du festival">
+
+
+<div class="flex  justify-center">
+
+ <RouterLink class="mx-2  text-[#7D7A71]" to="/contact">
+Contact 
+</RouterLink>
+<p->-</p->
+ <RouterLink class="mx-2 text-Beige-150 " to="/mentionlegale">
+<p>Mentions légales  </p>
+</RouterLink>
 
 </div>
 
-</div>
-<img src="" alt="">
 </div>    
+
 
 
 

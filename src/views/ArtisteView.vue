@@ -18,7 +18,7 @@
 
 </div>
 
-<div class="grid grid-cols-4 mt-3  font-oswald   gap-2">
+<div class="grid grid-cols-4 mt-3  font-oswald lg:text-xl  gap-2">
 
 <div class="mx-auto text-Beige-150
 ">Tous </div>
@@ -27,7 +27,7 @@
 <div class="mx-auto text-[#9F9B8F] " >Punk</div>
  </div>
 
-<div class="grid grid-cols-3 p-3 font-oswald ">
+<div class="grid grid-cols-3 p-3 lg:text-xl font-oswald ">
 
 <div class="mx-auto text-[#9F9B8F] " >Meta</div>
 <div class="mx-auto text-[#9F9B8F] " >Hard Rock</div>
@@ -36,11 +36,23 @@
 
 
 
+<div class="ml-4">
+
 
    <DateVue
-    texte="Groupe présent "/>
+    texte="Vendredi 24 Juin  "/>
+
+       <DateVue
+    texte="Samedi 25 Juin  "/>
+
+   <DateVue
+    texte="Dimanche 26 Juin "/>
+
+   <DateVue
+    texte="Lundi 27 Juin  "/>
 
 
+</div>
 
 
 <!--   

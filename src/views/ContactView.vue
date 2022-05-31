@@ -9,7 +9,7 @@
     class="w-auto h-auto "
   />
   <p
-    class="  xl:text-8xl lg:text-6xl xl:pb-4  absolute left-[16.41px] top-[39.34px] text-[33.34638595581055px] font-medium text-left text-[#d4cebd]"
+    class="  xl:text-8xl lg:text-6xl xl:pb-4 font-oswald absolute left-[16.41px] top-[39.34px] text-[33.34638595581055px] font-medium text-left text-[#d4cebd]"
   >
     NOUS CONTACTER
   </p>
@@ -91,7 +91,7 @@ Nous tâcherons de vous répondre dans les plus brefs délais."></textarea>
 
 
   <div>
-    <p class="text-white w-full md:w-1/2 px-3 mt-5 md:text-2xl xl:text-3xl md:pt-3 md:mb-0 xl:text-Beige-150 xl:items-center  md:mr-auto md:ml-auto  md:text-Beige-150 ">Information de contact : </p>
+    <p class="text-Beige-150 w-full md:w-1/2 px-3 mt-5 md:text-2xl xl:text-3xl md:pt-3 md:mb-0 xl:text-Beige-150 xl:items-center  md:mr-auto md:ml-auto  md:text-Beige-150 ">Information de contact : </p>
   </div>
 
 <div class="flex flex-col  md:flex justify-center  ">
@@ -110,14 +110,18 @@ Nous tâcherons de vous répondre dans les plus brefs délais."></textarea>
     <ul class="flex items-center mt-2 mb-2  flex-none  text-base ">
     <Map class="w-8"/>
     <p class="ml-5  xl:text-2xl md:text-xl text-Beige-150">10 Av. de chatonnay 25000 Besançon, France </p>
-  </ul>
-
-  
+  </ul>  
 </li>
+
+<div class="md:ml-16 mt-20">
+<p class="text-lg font-medium  font-oswald text-left md:text-3xl  xl:text-5xl text-[#d4cebd]">NOUS TROUVER</p>
+<div class="w-1/6 mt-2 h-1 sm:h-3 bg-[#d4cebd] border border-[#d4cebd]"></div>
 
 </div>
 
-</div>   
+</div>
+<img src="" alt="">
+</div>    
 
 
 

@@ -24,11 +24,7 @@
 
 
 
-   {{genre}}
 
-      {{nbr}}
-     
-    {{image}}
 
     </div>
 

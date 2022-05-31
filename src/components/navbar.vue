@@ -6,8 +6,8 @@
 <ul class="hidden z-50 flex-auto x-justify-center gap-2 sm:flex ">
   <!-- menu deployée -->
  
-  <li class="flex flex-auto mx-2  text-base font-oswald text-Beige-150 "><router-link to="/AccueilView">Programmation</router-link></li>
-  <li class="flex flex-auto mx-2  text-base font-oswald text-Beige-150" ><router-link to="/Test">Artiste</router-link></li>
+  <li class="flex flex-auto mx-2  text-base font-oswald text-Beige-150 "><router-link to="/programmation">Programmation</router-link></li>
+  <li class="flex flex-auto mx-2  text-base font-oswald text-Beige-150" ><router-link to="/artiste">Artiste</router-link></li>
   <li class="flex flex-auto mx-2  text-base font-oswald text-Beige-150" ><router-link to="/festival">Festival</router-link></li>
     <li class="flex flex-auto mx-2 text-base font-oswald text-Beige-150" ><router-link to="/contact">Contact</router-link></li>
 
@@ -37,7 +37,7 @@
 
         <ul class=" font-oswald text-Beige-150 ml-4  text-5xl h-screen flex flex-col justify-evenly">
           <li class=""><router-link to="/">PROGRAMMATION</router-link></li>
-          <li class=""><router-link to="/">ARTISTE</router-link></li>
+          <li class=""><router-link to="/artiste">ARTISTE</router-link></li>
           <li class=""><router-link to="/festival">FESTIVAL</router-link></li>
             <li class=""><router-link to="/">MARKET </router-link></li>
           <li class=""><router-link to="/contact">CONTACT</router-link></li>

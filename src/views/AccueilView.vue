@@ -26,11 +26,11 @@
 
 
 
-<img class="w-32 mb-5 ml-auto left-64 " src="../../public/images/Vector 8.png" alt="image d'acceuil">
-<img class="w-32  relative z-0 -top-80" src="../../public/images/Vector 5.png" alt="image d'acceuil">
-<img class="w-28 relative -top-[22rem] left-14" src="../../public/images/Vector 7.png" alt="image d'acceuil ">
-<img class="relative -top-[28rem] w-24 left-52" src="../../public/images/Vector 6.png" alt="image d'acceuil">
-   <img class="-mt-96" src="../../public/images/image3.png" alt="">
+<img class="w-32 mb-5 ml-auto left-64 " src="/images/Vector8.png" alt="image d'acceuil">
+<img class="w-32  relative z-0 -top-80" src="/images/Vector5.png" alt="image d'acceuil">
+<img class="w-28 relative -top-[22rem] left-14" src="/images/Vector7.png" alt="image d'acceuil ">
+<img class="relative -top-[28rem] w-24 left-52" src="/images/Vector6.png" alt="image d'acceuil">
+   <img class="-mt-96" src="/images/image3.png" alt="">
 
     </div>
    <p class="relative -top-52 text-right  text-3xl text-Beige-150 font-oswald">VENEZ VIVRE LE </p>
@@ -92,7 +92,7 @@
 
  <RouterLink to="/boutique">   
 <boutonstroke class="text-xs flex justify-end mr-4">
-  <P>Voir la boutique</P>
+  <P class="font-oswald">Voir la boutique</P>
 </boutonstroke>
  </RouterLink> 
 
@@ -100,15 +100,15 @@
 <!--A REVOIR -->
 
 <div class="grid grid-cols-2 gap-2">     
-<CardgoodiesViewVue image1="public/images/goodies/ecocup 1.png" 
-image2="public\images\goodies\sweat rampage_ 1.png">
+<CardgoodiesViewVue image1="/images/goodies/ecocup 1.png" 
+image2="/images/goodies/sweat rampage_ 1.png">
 <p>GOODIES</p>
   </CardgoodiesViewVue>
 
 
  
-  <CardgoodiesViewVue image1="public\images\goodies\sweat rampage_ 1-1.png" 
-image2="public/images/goodies/tshirtrampage1.png">
+  <CardgoodiesViewVue image1="/images/goodies/sweat rampage_ 1-1.png" 
+image2="/images/goodies/tshirtrampage1.png">
 <p>VETEMENTS </p>
   </CardgoodiesViewVue>
 
@@ -126,26 +126,26 @@ image2="public/images/goodies/tshirtrampage1.png">
 <div class="pt-3  bg-Beige-150">
 
 <div class="ml-2">
-<p class="text-base text-left text-neutral-800">ILS NOUS SOUTIENNENT</p>
+<p class="text-base text-left font-oswald text-neutral-800">ILS NOUS SOUTIENNENT</p>
 <div class="w-44 h-[5.03px] bg-neutral-800"></div>
 </div>
 
 <div class="flex justify-around mt-2">
-<img  class="w-14" src="public\images\partenaires\iutbm 1.png" alt="Ils nous soutiennent image">
-<img  class="w-14" src="public\images\partenaires\MMi_logo 1.png" alt="Ils nous soutiennent image">
-<img class="w-14 h-14"  src="public\images\partenaires\logo RBFC.png" alt="Ils nous soutiennent image">
-<img class="w-14"  src="public\images\partenaires\peugeot logo_ 1.png" alt="Ils nous soutiennent image">
+<img  class="w-14" src="/images/partenaires/iutbm 1.png" alt="Ils nous soutiennent image">
+<img  class="w-14" src="/images/partenaires/MMi_logo 1.png" alt="Ils nous soutiennent image">
+<img class="w-14 h-14"  src="/images/partenaires/logo RBFC.png" alt="Ils nous soutiennent image">
+<img class="w-14"  src="/images/partenaires/peugeot logo_ 1.png" alt="Ils nous soutiennent image">
 </div>
 
 
 
 <div class="flex justify-center">
 
- <RouterLink class="mx-2 " to="/contact">
+ <RouterLink class="mx-2  " to="/contact">
 Contact 
 </RouterLink>
 <p->-</p->
- <RouterLink class="mx-2 " to="/mentionlegale">
+ <RouterLink class="mx-2  " to="/mentionlegale">
 <p>Mentions légales  </p>
 </RouterLink>
 

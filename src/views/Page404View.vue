@@ -3,7 +3,7 @@
 
 	<div class="bg-black text-white">
 		<div class="flex h-screen">
-			<img src="../../public/images/4044.png" alt="Image de la page 404">
+			<img src="/images/4044.png" alt="Image de la page 404">
 
 				</div>
 
@@ -36,3 +36,4 @@ export default {
 }
 
 </script>
+

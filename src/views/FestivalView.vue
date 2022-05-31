@@ -73,7 +73,7 @@
 job="lol"
         />
 
-           <card image="/images/collaborateurs/pexels-rene-asmussen-325685 1.png"
+           <card image="/images/collaborateurs/rene.png"
         />
 
            <card image="/images/collaborateurs/Rectangle 59-2.png"

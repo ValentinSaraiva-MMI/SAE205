@@ -100,14 +100,14 @@
 <!--A REVOIR -->
 
 <div class="grid grid-cols-2 gap-2">     
-<CardgoodiesViewVue image1="/images/goodies/ecocup 1.png" 
-image2="/images/goodies/sweat rampage_ 1.png">
+<CardgoodiesViewVue image1="/images/goodies/ecocup1.png" 
+image2="/images/goodies/sweatrampage1.png">
 <p>GOODIES</p>
   </CardgoodiesViewVue>
 
 
  
-  <CardgoodiesViewVue image1="/images/goodies/sweat rampage_ 1-1.png" 
+  <CardgoodiesViewVue image1="/images/goodies/sweatrampage2.png" 
 image2="/images/goodies/tshirtrampage1.png">
 <p>VETEMENTS </p>
   </CardgoodiesViewVue>
@@ -131,10 +131,10 @@ image2="/images/goodies/tshirtrampage1.png">
 </div>
 
 <div class="flex justify-around mt-2">
-<img  class="w-14" src="/images/partenaires/iutbm 1.png" alt="Ils nous soutiennent image">
-<img  class="w-14" src="/images/partenaires/MMi_logo 1.png" alt="Ils nous soutiennent image">
-<img class="w-14 h-14"  src="/images/partenaires/logo RBFC.png" alt="Ils nous soutiennent image">
-<img class="w-14"  src="/images/partenaires/peugeot logo_ 1.png" alt="Ils nous soutiennent image">
+<img  class="w-14" src="/images/partenaires/iutbm1.png" alt="Ils nous soutiennent image">
+<img  class="w-14" src="/images/partenaires/MMilogo1.png" alt="Ils nous soutiennent image">
+<img class="w-14 h-14"  src="/images/partenaires/logoRBFC.png" alt="Ils nous soutiennent image">
+<img class="w-14"  src="/images/partenaires/peugeotlogo1.png" alt="Ils nous soutiennent image">
 </div>
 
 
@@ -146,7 +146,7 @@ Contact
 </RouterLink>
 <p->-</p->
  <RouterLink class="mx-2  " to="/mentionlegale">
-<p>Mentions légales  </p>
+<p class="pb-12">Mentions légales  </p>
 </RouterLink>
 
 </div>

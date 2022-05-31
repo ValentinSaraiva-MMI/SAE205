@@ -42,19 +42,24 @@
    <DateVue
     texte="Vendredi 24 Juin  "/>
 
+<div class=" mx-auto grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(22rem,1fr))] max-w-7xl ">
     <ArtisteCard  image="/images/artistes/Cantat.png" nom="Bertrant Cantat" genre="Hard rock"/>
-
+     <ArtisteCard  image="/images/artistes/Cantat.png" nom="Bertrant Cantat" genre="Hard rock"/>
+       <ArtisteCard  image="/images/artistes/Cantat.png" nom="Bertrant Cantat" genre="Hard rock"/>
+        <ArtisteCard  image="/images/artistes/Cantat.png" nom="Bertrant Cantat" genre="Hard rock"/>
+       <ArtisteCard  image="/images/artistes/Cantat.png" nom="Bertrant Cantat" genre="Hard rock"/>
     
-
-
+</div>
        <DateVue
     texte="Samedi 25 Juin  "/>
+    
 
    <DateVue
     texte="Dimanche 26 Juin "/>
 
    <DateVue
     texte="Lundi 27 Juin  "/>
+
 
 </div>
 

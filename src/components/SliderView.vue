@@ -13,22 +13,22 @@
       <img class="shrink-0 w-h-56 h-56 rounded-lg shadow-xl " src="/images/slider/Sidilarsen.png">
     </div>
     <div class="snap-center shrink-0 first:pl-8 last:pr-8">
-      <img class="shrink-0 w-h-56 h-56 rounded-lg shadow-xl " src="/images/slider/Group 7.png">
+      <img class="shrink-0 w-h-56 h-56 rounded-lg shadow-xl " src="/images/slider/Group7.png">
     </div>
     <div class="snap-center shrink-0 first:pl-8 last:pr-8">
-      <img class="shrink-0 w-h-56 h-56 rounded-lg shadow-xl " src="/images/slider/Group 8.png">
+      <img class="shrink-0 w-h-56 h-56 rounded-lg shadow-xl " src="/images/slider/Group8.png">
     </div>
     <div class="snap-center shrink-0 first:pl-8 last:pr-8">
-      <img class="shrink-0 w-h-56 h-56 rounded-lg shadow-xl " src="/images/slider/Group 13.png">
+      <img class="shrink-0 w-h-56 h-56 rounded-lg shadow-xl " src="/images/slider/Group13.png">
     </div>
     <div class="snap-center shrink-0 first:pl-8 last:pr-8">
-      <img class="shrink-0 w-h-56 h-56 rounded-lg shadow-xl " src="/images/slider/Group 9.png">
+      <img class="shrink-0 w-h-56 h-56 rounded-lg shadow-xl " src="/images/slider/Group9.png">
     </div>
     <div class="snap-center shrink-0 first:pl-8 last:pr-8">
-      <img class="shrink-0 w-h-56 h-56 rounded-lg shadow-xl " src="/images/slider/Group 11.png">
+      <img class="shrink-0 w-h-56 h-56 rounded-lg shadow-xl " src="/images/slider/Group11.png">
     </div>
     <div class="snap-center shrink-0 first:pl-8 last:pr-8">
-      <img class="shrink-0 w-h-56 h-56 rounded-lg shadow-xl " src="/images/slider/Group 12.png">
+      <img class="shrink-0 w-h-56 h-56 rounded-lg shadow-xl " src="/images/slider/Group12.png">
     </div>
     <div class="snap-center shrink-0">
       <div class="shrink-0 w-4 sm:w-48"></div>

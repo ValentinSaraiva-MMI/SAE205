@@ -43,11 +43,11 @@
     texte="Vendredi 24 Juin  "/>
 
 <div class=" mx-auto grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(22rem,1fr))] max-w-7xl ">
-    <ArtisteCard  image="/images/artistes/Cantat.png" nom="Bertrant Cantat" genre="Hard rock"/>
-     <ArtisteCard  image="/images/artistes/Cantat.png" nom="Bertrant Cantat" genre="Hard rock"/>
-       <ArtisteCard  image="/images/artistes/Cantat.png" nom="Bertrant Cantat" genre="Hard rock"/>
-        <ArtisteCard  image="/images/artistes/Cantat.png" nom="Bertrant Cantat" genre="Hard rock"/>
-       <ArtisteCard  image="/images/artistes/Cantat.png" nom="Bertrant Cantat" genre="Hard rock"/>
+    <ArtisteCard  image="/images/artistes/Cantat.png" nom="Bertrant Cantat" genre="Rock"/>
+     <ArtisteCard  image="/images/artistes/Kyo.png" nom="Kyo" genre="Pop Rock"/>
+       <ArtisteCard  image="/images/artistes/fatalpicard.png" nom="Les Fatals Picard" genre="Punk"/>
+        <ArtisteCard  image="/images/artistes/luke.png" nom="Luke" genre="Rock"/>
+       <ArtisteCard  image="/images/artistes/.png" nom="Superbus" genre="Pop Rock"/>
     
 </div>
        <DateVue

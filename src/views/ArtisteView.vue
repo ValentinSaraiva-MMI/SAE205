@@ -6,11 +6,9 @@
 <div class="  pt-4">
 
 
-    <span class=" sm:ml-2   md:ml-4 lg:ml-5 xl:ml-8 font-oswald md:text-2xl lg:text-4xl xl:text-5xl 2xl:text-6xl  inline text-xl font-medium  text-Beige-150"
+    <span class=" sm:ml-2   md:ml-4 lg:ml-5 xl:ml-8 font-oswald md:text-2xl lg:text-4xl xl:text-5xl 2xl:text-6xl  inline text-2xl font-medium  text-Beige-150"
       > LES ARTISTES </span
     >
-
-  
    <div class="w-2/6 h-1  lg:h2 md:h-2  bg-Beige-150"></div>
 
 
@@ -20,17 +18,30 @@
 
 </div>
 
-<div class="grid grid-cols-4 mt-3  gap-2">
+<div class="grid grid-cols-4 mt-3  font-oswald   gap-2">
 
-<div>Tous </div>
-<div>Rock</div>
-<div>Pop Rock</div>
-<div>Punk</div>
-<div>Meta</div>
-<div>Hard Rock</div>
-<div>Blues</div>
-
+<div class="mx-auto text-Beige-150
+">Tous </div>
+<div class="mx-auto text-[#9F9B8F] " >Rock</div>
+<div class="mx-auto text-[#9F9B8F] " >Pop Rock</div>
+<div class="mx-auto text-[#9F9B8F] " >Punk</div>
  </div>
+
+<div class="grid grid-cols-3 p-3 font-oswald ">
+
+<div class="mx-auto text-[#9F9B8F] " >Meta</div>
+<div class="mx-auto text-[#9F9B8F] " >Hard Rock</div>
+<div class="mx-auto text-[#9F9B8F] " >Blues</div>
+</div>
+
+
+
+
+   <DateVue
+    texte="Groupe présent "/>
+
+
+
 
 <!--   
  <ul >
@@ -48,7 +59,13 @@
 </template>
 
 <script>
+
+import DateVue from "../components/DatePageartiste.vue"
+
 export default {
+    
     name: "ArtisteView",
+
+     components: { DateVue,}
    
 }</script>

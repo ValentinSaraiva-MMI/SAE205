@@ -72,7 +72,7 @@
 </div>
 
 <div class=" flex justify-end">
-<img  src="../../public/images/arrow1.png" alt="fleche ">
+<img  src="/images/arrow1.png" alt="fleche ">
 </div>
 
  

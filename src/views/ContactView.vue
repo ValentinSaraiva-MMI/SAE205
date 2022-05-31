@@ -91,31 +91,28 @@ Nous tâcherons de vous répondre dans les plus brefs délais."></textarea>
 
 
   <div>
-    <p class="text-white w-full md:w-1/2 px-3 mt-5 md:text-xl fgg md:mb-0 ">Information de contact : </p>
+    <p class="text-white w-full md:w-1/2 px-3 mt-5 md:text-2xl xl:text-3xl md:pt-3 md:mb-0 xl:text-Beige-150 xl:items-center  md:mr-auto md:ml-auto  md:text-Beige-150 ">Information de contact : </p>
   </div>
 
-<div class="grid grid-cols-2">
+<div class="flex flex-col  md:flex justify-center  ">
   
-<li>
-  <ul class="flex items-center text-base ">
+<li class="md:mr-auto md:ml-auto">
+  <ul class="flex items-center text-base mt-2 mb-2 ">
     <mail class="w-8 "/>
-    <p class="ml-5 text-white">festival@rampage.fr</p>
+    <p class="ml-5  xl:text-2xl md:text-xl  text-Beige-150">festival@rampage.fr</p>
   </ul>
 
-    <ul class="flex items-center text-base ">
-    <mail class="w-8 "/>
-    <p class="ml-5 text-white">festival@rampage.fr</p>
+    <ul class="flex items-center mt-2 mb-2 text-base ">
+    <Phone class="w-8 "/>
+    <p class="ml-5  xl:text-2xl md:text-xl  text-Beige-150">03 81 99 47 34</p>
   </ul>
 
-    <ul class="flex items-center text-base ">
-    <mail class="w-8 "/>
-    <p class="ml-5 text-white">festival@rampage.fr</p>
+    <ul class="flex items-center mt-2 mb-2  flex-none  text-base ">
+    <Map class="w-8"/>
+    <p class="ml-5  xl:text-2xl md:text-xl text-Beige-150">10 Av. de chatonnay 25000 Besançon, France </p>
   </ul>
 
-    <ul class="flex items-center text-base ">
-    <mail class="w-8 "/>
-    <p class="ml-5 text-white">festival@rampage.fr</p>
-  </ul>
+  
 </li>
 
 </div>
@@ -131,8 +128,10 @@ Nous tâcherons de vous répondre dans les plus brefs délais."></textarea>
 <script >
 import BoutonstrokeView from '../components/BoutonstrokeView.vue';
 import Mail from '../components/icons/Mail.vue';
+import Phone from '../components/icons/Phone.vue';
+import Map from '../components/icons/Map.vue';
 export default {
     name: "ContactView ",
-    components: { BoutonstrokeView, Mail }
+    components: { BoutonstrokeView, Mail, Phone, Map }
 }
 </script>

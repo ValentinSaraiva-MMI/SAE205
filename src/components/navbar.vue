@@ -4,7 +4,7 @@
            
         </div>
 <ul class="hidden z-50 flex-auto x-justify-center gap-2 md:flex ">
-  <!-- Autre menu -->
+  <!-- menu deployée -->
  
   <li class="flex flex-auto mx-2 text-base font-oswald text-Beige-150 "><router-link to="/AccueilView">Programmation</router-link></li>
   <li class="flex flex-auto mx-2  text-base font-oswald text-Beige-150" ><router-link to="/Test">Artiste</router-link></li>
@@ -14,7 +14,7 @@
  
 </ul>
 
-      <button class="relative z-50 text-xl sm:hidden"
+      <button class="relative z-111 text-xl sm:hidden"
       aria-haspopup="true"
                 aria-controls="menu"
                 :aria-expanded="menuOuvert" @click="menuOuvert = !menuOuvert">
@@ -27,7 +27,7 @@
 
                 
       <div id="menu"
-          class="fixed inset-0 translate-x-full  z-40  bg-red-200 motion-safe:duration-1000 motion-safe:transition-transform"
+          class="fixed overflow-y-hidden inset-0 translate-x-full  z-100   bg-red-200 motion-safe:duration-1000 motion-safe:transition-transform"
           :class="{ 'translate-x-0': menuOuvert }">
         <ul>
           <li><router-link to="/">Un</router-link></li>

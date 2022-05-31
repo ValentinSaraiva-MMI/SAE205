@@ -5,7 +5,7 @@
 
 <div class="w-full  relative">
   <img
-    src="../../public/images/contact/image77.png"
+    src="/images/contact/image77.png"
     class="w-auto h-auto "
   />
   <p
@@ -130,7 +130,7 @@ Nous tâcherons de vous répondre dans les plus brefs délais."></textarea>
 </div>
 
 </div >
-<img class=" p-2 mr-auto  ml-auto" src="public\images\map.png" alt="map localisation du festival">
+<img class=" p-2 mr-auto  ml-auto" src="\images\map.png" alt="map localisation du festival">
 
 
 <div class="flex  justify-center">

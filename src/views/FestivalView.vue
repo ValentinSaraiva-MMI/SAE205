@@ -113,45 +113,45 @@ job="lol"
     <div class="grid-cols-3 p-20 space-y-2 bg-noir lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-3">
        
         <div class="w-full rounded">
-            <img src="public\images\souvenires\maxime-lebrun-h5G0WdtwcEg-unsplash 1.png"
+            <img src="/images/souvenires/maxime-lebrun-h5G0WdtwcEg-unsplash 1.png"
                 alt="image">
         </div>
         <div class="w-full  rounded">
-            <img src="public\images\souvenires\pexels-mantas-hesthaven-354304 1.png"
+            <img src="/images/souvenires/pexels-mantas-hesthaven-354304 1.png"
                 alt="image">
         </div>
           <div class="w-full rounded">
-            <img src="public\images\souvenirs2\3.png"
+            <img src="/images/souvenirs2/3.png"
                 alt="image">
         </div>
 
    <div class="w-full  rounded">
-            <img src="public\images\souvenirs2\1.png"
+            <img src="/images/souvenirs2/1.png"
                 alt="image">
         </div>
         <div class="w-full  rounded">
-            <img src="public\images\souvenirs2\7.png"
+            <img src="/images/souvenirs2/7.png"
                 alt="image">
         </div>
         
           <div class="w-full rounded">
-            <img src="public\images\souvenirs2\4.png"
+            <img src="/images/souvenirs2/4.png"
                 alt="image">
         </div>
         
 
         <div class="w-full rounded">
-            <img src="public\images\souvenirs2\5.png"
+            <img src="/images/souvenirs2/5.png"
                 alt="image">
         </div>
           <div class="w-full  rounded">
-            <img src="public\images\souvenires\image 28.png"
+            <img src="/images/souvenires/image 28.png"
                 alt="image">
         </div>
 
         
          <div class="w-full rounded ">
-            <img src="../../public/images/souvenires/erik-mclean-zgSC_LEWw20-unsplash 1.png"
+            <img src="/images/souvenires/erik-mclean-zgSC_LEWw20-unsplash 1.png"
                 alt="image">
         </div>
     </div>

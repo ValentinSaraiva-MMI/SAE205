@@ -20,7 +20,7 @@
 </div>
 
 <div class="flex justify-center">
-<img  class=" md:w-8   w-5 relative -top-10" src="src/components/icons/flechedown.png" alt=" icone fleche bas ">
+<img  class=" md:w-8   w-5 relative -top-10" src="/images/flechedown.png" alt=" icone fleche bas ">
 </div>
 
 <div class=" flex justify-end">

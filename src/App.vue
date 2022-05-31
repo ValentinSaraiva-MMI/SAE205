@@ -3,7 +3,10 @@
 
 <div class="bg-noir">  
 <div class="inline-flex w-full">
+
+<RouterLink class="my-auto" to="/">
 <logofestival class="w-8 ml-3 "/>
+</RouterLink>
 <navbar />
 </div>
 </div>

@@ -60,8 +60,8 @@
   </div>
   <div class="flex flex-wrap -mx-3 mb-2">
 
-    <label for="message" class="block mb-2 text-sm font-medium  dark:text-Beige-150">SUJET </label>
-<textarea id="message" rows="4" class="block p-2.5 w-full  text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-200   dark:border-gray-600 dark:placeholder-gray-400 dark:text-noir dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Écrivez ici les raisons de votre demande.
+    <label for="message" class="block mb-2 mx-3 text-sm font-medium  dark:text-Beige-150">SUJET </label>
+<textarea id="message" rows="4" class="block mx-3 p-2.5 w-full  text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-200   dark:border-gray-600 dark:placeholder-gray-400 dark:text-noir dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Écrivez ici les raisons de votre demande.
 Nous tâcherons de vous répondre dans les plus brefs délais."></textarea>
  
  <!--
@@ -85,16 +85,40 @@ Nous tâcherons de vous répondre dans les plus brefs délais."></textarea>
 
 
 
-  <BoutonstrokeView>Envoyer </BoutonstrokeView>
-
-
-
-
-
-
-   
+  <BoutonstrokeView>Envoyer </BoutonstrokeView>   
   </div>
 </form>
+
+
+  <div>
+    <p class="text-white w-full md:w-1/2 px-3 mt-5 md:text-xl fgg md:mb-0 ">Information de contact : </p>
+  </div>
+
+<div class="grid grid-cols-2">
+  
+<li>
+  <ul class="flex items-center text-base ">
+    <mail class="w-8 "/>
+    <p class="ml-5 text-white">festival@rampage.fr</p>
+  </ul>
+
+    <ul class="flex items-center text-base ">
+    <mail class="w-8 "/>
+    <p class="ml-5 text-white">festival@rampage.fr</p>
+  </ul>
+
+    <ul class="flex items-center text-base ">
+    <mail class="w-8 "/>
+    <p class="ml-5 text-white">festival@rampage.fr</p>
+  </ul>
+
+    <ul class="flex items-center text-base ">
+    <mail class="w-8 "/>
+    <p class="ml-5 text-white">festival@rampage.fr</p>
+  </ul>
+</li>
+
+</div>
 
 </div>   
 
@@ -106,8 +130,9 @@ Nous tâcherons de vous répondre dans les plus brefs délais."></textarea>
 
 <script >
 import BoutonstrokeView from '../components/BoutonstrokeView.vue';
+import Mail from '../components/icons/Mail.vue';
 export default {
     name: "ContactView ",
-    components: { BoutonstrokeView }
+    components: { BoutonstrokeView, Mail }
 }
 </script>

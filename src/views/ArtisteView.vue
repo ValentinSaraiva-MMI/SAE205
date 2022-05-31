@@ -42,6 +42,11 @@
    <DateVue
     texte="Vendredi 24 Juin  "/>
 
+    <ArtisteCardView  image="/public/images/Paul2.png" txt="xxx" />
+
+    
+
+
        <DateVue
     texte="Samedi 25 Juin  "/>
 
@@ -50,7 +55,6 @@
 
    <DateVue
     texte="Lundi 27 Juin  "/>
-
 
 </div>
 
@@ -73,11 +77,13 @@
 <script>
 
 import DateVue from "../components/DatePageartiste.vue"
+import ArtisteCardViewVue from "../components/ArtisteCardView.vue"
+import ArtisteCardView from "../components/ArtisteCardView.vue"
 
 export default {
     
     name: "ArtisteView",
 
-     components: { DateVue,}
+     components: { DateVue, ArtisteCardViewVue, ArtisteCardView }
    
 }</script>

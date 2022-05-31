@@ -139,14 +139,15 @@ image2="/images/goodies/tshirtrampage1.png">
 
 
 
-<div class="flex justify-center">
+<div class="mt-4 flex justify-center">
+
 
  <RouterLink class="mx-2  " to="/contact">
 Contact 
 </RouterLink>
 <p->-</p->
- <RouterLink class="mx-2  " to="/mentionlegale">
-<p class="pb-12">Mentions légales  </p>
+ <RouterLink class="mx-2 " to="/mentionlegale">
+<p class="pb-12 ">Mentions légales</p>
 </RouterLink>
 
 </div>

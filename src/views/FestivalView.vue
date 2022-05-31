@@ -4,7 +4,7 @@
 <!--Hero -->
 <div class="w-full  relative">
   <img
-    src="/images/festival/hero_festival_grand.png"
+    src="/images/festival/herofestivalgrand.png"
     class="w-auto h-auto "
   />
   <p
@@ -69,29 +69,29 @@
 <!-- Nom et fonction à ajouter-->
  <div class=" mx-auto grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(22rem,1fr))] max-w-7xl ">
  
-   <card image="/images/collaborateurs/Rectangle 59-1.png"
+   <card image="/images/collaborateurs/Rectangle591.png"
 job="lol"
         />
 
            <card image="/images/collaborateurs/rene.png"
         />
 
-           <card image="/images/collaborateurs/Rectangle 59-2.png"
+           <card image="/images/collaborateurs/Rectangle592.png"
         />
 
-    <card image="/images/collaborateurs/Rectangle 59-3.png"
+    <card image="/images/collaborateurs/Rectangle593.png"
         />
 
-           <card image="/images/collaborateurs/Rectangle 59-4.png"
+           <card image="/images/collaborateurs/Rectangle594.png"
         />
 
-           <card image="/images/collaborateurs/Rectangle 59-5.png"
+           <card image="/images/collaborateurs/Rectangle595.png"
         />
 
-          <card image="/images/collaborateurs/Rectangle 59-6.png"
+          <card image="/images/collaborateurs/Rectangle596.png"
         />
 
-           <card image="/images/collaborateurs/Rectangle 59-7.png"
+           <card image="/images/collaborateurs/Rectangle597.png"
         />
 
            <card image="/images/collaborateurs/amelie.png"
@@ -113,11 +113,11 @@ job="lol"
     <div class="grid-cols-3 p-20 space-y-2 bg-noir lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-3">
        
         <div class="w-full rounded">
-            <img src="/images/souvenires/maxime-lebrun-h5G0WdtwcEg-unsplash 1.png"
+            <img src="/images/souvenires/maximelebrun.png"
                 alt="image">
         </div>
         <div class="w-full  rounded">
-            <img src="/images/souvenires/pexels-mantas-hesthaven-354304 1.png"
+            <img src="/images/souvenires/pexelsmantashesthaven3543041.png"
                 alt="image">
         </div>
           <div class="w-full rounded">
@@ -145,13 +145,13 @@ job="lol"
                 alt="image">
         </div>
           <div class="w-full  rounded">
-            <img src="/images/souvenires/image 28.png"
+            <img src="/images/souvenires/image28.png"
                 alt="image">
         </div>
 
         
          <div class="w-full rounded ">
-            <img src="/images/souvenires/erik-mclean-zgSC_LEWw20-unsplash 1.png"
+            <img src="/images/souvenires/erikmclean.png"
                 alt="image">
         </div>
     </div>

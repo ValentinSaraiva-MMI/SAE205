@@ -67,22 +67,22 @@
    <DateVue
     texte="Dimanche 26 Juin "/>
     <div class=" mx-auto grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(22rem,1fr))] max-w-7xl ">
-    <ArtisteCard  image="/images/artistes/Cantat.png" nom="Bertrant Cantat" genre="Hard rock"/>
-     <ArtisteCard  image="/images/artistes/Cantat.png" nom="Bertrant Cantat" genre="Hard rock"/>
-       <ArtisteCard  image="/images/artistes/Cantat.png" nom="Bertrant Cantat" genre="Hard rock"/>
-        <ArtisteCard  image="/images/artistes/Cantat.png" nom="Bertrant Cantat" genre="Hard rock"/>
-       <ArtisteCard  image="/images/artistes/Cantat.png" nom="Bertrant Cantat" genre="Hard rock"/>
+    <ArtisteCard  image="/images/artistes/Sailor.png" nom="Sailor Jerry's" genre="Blues"/>
+     <ArtisteCard  image="/images/artistes/buskers.png" nom="The Buskers" genre="Blues "/>
+       <ArtisteCard  image="/images/artistes/trust.png" nom="Trust" genre="Hard Rock"/>
+        <ArtisteCard  image="/images/artistes/tracklist.png" nom="Tracklist" genre="Rock"/>
+       <ArtisteCard  image="/images/artistes/shatter.png" nom="Shattered Blooms" genre="Punk"/>
     
 </div>
 
    <DateVue
     texte="Lundi 27 Juin  "/>
     <div class=" mx-auto grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(22rem,1fr))] max-w-7xl ">
-    <ArtisteCard  image="/images/artistes/Cantat.png" nom="Bertrant Cantat" genre="Hard rock"/>
-     <ArtisteCard  image="/images/artistes/Cantat.png" nom="Bertrant Cantat" genre="Hard rock"/>
-       <ArtisteCard  image="/images/artistes/Cantat.png" nom="Bertrant Cantat" genre="Hard rock"/>
-        <ArtisteCard  image="/images/artistes/Cantat.png" nom="Bertrant Cantat" genre="Hard rock"/>
-       <ArtisteCard  image="/images/artistes/Cantat.png" nom="Bertrant Cantat" genre="Hard rock"/>
+    <ArtisteCard  image="/images/artistes/tya.png" nom="Ten Years After" genre="Blues"/>
+     <ArtisteCard  image="/images/artistes/skip.png" nom="Skip the Use" genre="Pop Rock"/>
+       <ArtisteCard  image="/images/artistes/blackbomba.png" nom="Black Bomb A" genre="Punk"/>
+        <ArtisteCard  image="/images/artistes/kawaii.png" nom="Kawaii Bukake" genre="Punk"/>
+       <ArtisteCard  image="/images/artistes/younger.png" nom="Younger Hunger" genre="Pop Rock"/>
     
 </div>
 

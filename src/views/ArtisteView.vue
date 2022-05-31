@@ -42,7 +42,7 @@
    <DateVue
     texte="Vendredi 24 Juin  "/>
 
-    <ArtisteCard  image="/public/images/Paul2.png" nom="xxx" genre="#"/>
+    <ArtisteCard  image="/images/artistes/Cantat.png" nom="Bertrant Cantat" genre="Hard rock"/>
 
     
 

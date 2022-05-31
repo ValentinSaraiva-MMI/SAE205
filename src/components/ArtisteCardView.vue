@@ -14,13 +14,13 @@
  
 
 
-  <p class="w-[325px] absolute left-0 top-64 text-[28px] text-center text-[#d4cebd]">
+  <p class="w-[325px] absolute left-0 top-64  font-oswald text-[28px] text-center text-[#d4cebd]">
     {{nom}}
     </p>
 
  
 
- <p class="w-[77px] h-[33px] absolute left-[247px] top-[-1px] bg-[#d4cebd]">
+ <p class="w-[77px] h-[28px] absolute left-[247px] text-center  font-oswald  top-[-1px] bg-[#d4cebd]">
     {{genre}}
     </p>
 

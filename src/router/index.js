@@ -16,6 +16,7 @@ const router = createRouter({
     { path: '/artiste', name: 'ArtisteView', component: ArtisteView },
 
 
+
     //page 404 
     {
       path: '/:catchAll(.*)',

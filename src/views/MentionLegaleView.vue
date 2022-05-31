@@ -1,5 +1,5 @@
 <template>
-    Mention légales 
+    Mention légaless
 </template>
 
 

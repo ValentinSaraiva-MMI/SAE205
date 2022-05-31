@@ -13,7 +13,7 @@
     LE RAMPAGE
   </p>
   <p
-    class=" font-oswald xl:text-7xl  xl:mt-11   absolute left-[16.41px] top-[76.59px] text-[25.00978660583496px] font-medium text-left text-[#d4cebd]"
+    class=" font-oswald xl:text-7xl  xl:mt-16 absolute left-[16.41px] top-[76.59px] text-[25.00978660583496px] font-medium text-left text-[#d4cebd]"
   >
     C’EST QUOI ?...
   </p>
@@ -58,10 +58,10 @@
   ><br />
 </p>
 </div>
-<BoutonstrokeView class="flex justify-center pb-3">Billeterie</BoutonstrokeView>
+<BoutonstrokeView class="flex font-oswald justify-center pb-3">Billeterie</BoutonstrokeView>
 
 <div class="bg-Beige-150 ">
-<p class="text-[25.00978660583496px] xl:text-7xl  md:text-5xl sm:text-4xl font-medium text-left">UNE EQUIPE</p>
+<p class="text-[25.00978660583496px] xl:text-7xl  md:text-5xl sm:text-4xl font-medium  font-oswald   text-left">UNE EQUIPE</p>
 <div class="w-4/12 mt-1 h-2 z-40 bg-noir"></div>
 
 
@@ -102,7 +102,7 @@ job="lol"
 
 
     <div class="bg-noir">
-      <p class="text-[25.00978660583496px] xl:text-7xl  md:text-5xl sm:text-4xl font-medium text-left text-[#d4cebd]">DES SOUVENIRS</p>
+      <p class="text-[25.00978660583496px] xl:text-7xl  md:text-5xl font-oswald sm:text-4xl font-medium text-left text-[#d4cebd]">DES SOUVENIRS</p>
 <div class="w-4/12 h-1 bg-[#d4cebd]"></div>
     </div>
 
@@ -160,7 +160,7 @@ job="lol"
     
    
   <p
-    class="  lg:text-5xl  xl:text-7xl   text-[26.677793502807617px] font-medium  text-noir"
+    class="  lg:text-5xl  xl:text-7xl font-oswald  text-[26.677793502807617px] font-medium  text-noir"
   >
     QUELQUES STATS
   </p>

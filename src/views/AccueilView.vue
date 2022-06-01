@@ -9,7 +9,7 @@
 <div class="text-5xl  md:text-6xl lg:text-7xl xl:text-8xl  text-Beige-150 z-40  font-oswald ml-5">
   BIENVENUE AU  
 </div>
-<div class="z-50 text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-Beige-150 font-oswald stroke-Beige-150 stroke-1 text-right mr-24">
+<div class="z-50 text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-Beige-150 font-oswald stroke-Beige-150 stroke-1  lg:text-left lg:ml-52  text-right mr-24">
    RAMPAGE
 </div>
 
@@ -20,7 +20,7 @@
 </div>
 
  <RouterLink to="/billeterie">
-<bouton1 class="flex justify-center"/>
+<bouton1 class="  flex justify-center"/>
  </RouterLink>
 
 
@@ -47,7 +47,7 @@
 <div class="flex justify-center -mt-48" >
 
  <RouterLink to="/festival">   
-<boutonstroke class="xl:relative xl:bottom-56   ">
+<boutonstroke class="xl:relative xl:bottom-72   ">
   <P>Le festival</P>
 </boutonstroke>
  </RouterLink>

@@ -1,13 +1,11 @@
 <template>
   <h1
-    class="
-      text-big text-center text-white
-      bg-gradient-to-r
-      from-cyan-500
-      to-blue-500
+    class=" text-xl
+      text-big text-center text-Beige-150
+      bg-noir
     "
   >
-    TP1 Guide de Style
+    Guide de Style Rampage Festival
   </h1>
   <div class="ml-2.5">
     <h2 class="text-2xl mb-3 mt-3 underline underline-offset-4">Main Colors</h2>
@@ -70,18 +68,10 @@
     <p class="italic font-lato mt-1">Ceci est un texte écrit en italic</p>
 
     <h2 class="text-2xl underline underline-offset-4 mt-5">Icones</h2>
-    <ArchiveIcon class="w-12 mr-4 mt-4 inline-block"></ArchiveIcon>
-    <BeakerIcon class="w-12 mr-4 mt-4 inline-block"></BeakerIcon>
-    <CakeIcon class="w-12 mr-4 mt-4 inline-block"></CakeIcon>
-    <BanIcon class="w-12 mr-4 mt-4 inline-block"></BanIcon>
-    <FireIcon class="w-12 mr-4 mt-4 inline-block"></FireIcon>
-    <GlobeIcon class="w-12 mr-4 mt-4 inline-block"></GlobeIcon>
-    <RssIcon class="w-12 mr-4 mt-4 inline-block"></RssIcon>
+    
 
     <h2 class="text-2xl underline underline-offset-4 mt-5">Composants</h2>
-    <Bouton class="mt-3 block mb-5"></Bouton>
-    <Combo class="mt-4"></Combo>
-    <Check class="mt-3"></Check>
+   
   </div>
 
   <div
@@ -97,11 +87,7 @@
     <div class="ml-3">
       <p class="font-medium mt-5">Valentin Saraiva</p>
       <p class="font-medium inline-block">C1</p>
-      <img
-        class="w-10 inline-block float-right mr-2 animate-bounce"
-        src="./images/logo_mmi_blanc.png"
-        alt="logoMMI"
-      />
+     
     </div>
   </div>
 </template>
@@ -109,35 +95,7 @@
 
 
 
-<script >
-import Bouton from "./bouton.vue";
-import Combo from "./combob.vue";
-import Check from "./checkb.vue";
 
-import {
-  RssIcon,
-  ArchiveIcon,
-  BeakerIcon,
-  CakeIcon,
-  BanIcon,
-  FireIcon,
-  GlobeIcon,
-} from "@heroicons/vue/outline";
 
-export default {
-  name: "App",
-  components: {
-    Check,
-    Combo,
-    Bouton,
-    RssIcon,
-    ArchiveIcon,
-    BeakerIcon,
-    CakeIcon,
-    BanIcon,
-    FireIcon,
-    GlobeIcon,
-  },
-};
-</script>
+
 

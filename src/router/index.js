@@ -12,7 +12,7 @@ import ArtisteHardView from '../views/ArtisteHardView.vue'
 
 import ArtistePunkView from '../views/ArtistePunkView.vue'
 import ArtisteMetalView from '../views/ArtisteMetalView.vue'
-
+import ArtisteDynamiqueView from '../views/ArtisteDynamiqueView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),

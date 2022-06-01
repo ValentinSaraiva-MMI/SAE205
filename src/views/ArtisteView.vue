@@ -108,6 +108,8 @@
 </div>
 
 
+
+
 </div>
 </div>
 
@@ -122,6 +124,12 @@
 
 </ul>
  -->
+
+
+ <RouterLink to="/artistedynamique">
+<div class="mx-auto text-[#9F9B8F] " >Dynamique page</div>
+</RouterLink>
+
 
 </div>
 </template>

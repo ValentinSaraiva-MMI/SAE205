@@ -30,12 +30,12 @@
 <img class="w-32  relative z-0 -top-80" src="/images/Vector5.png" alt="image d'acceuil">
 <img class="w-28 relative -top-[22rem] left-14" src="/images/Vector7.png" alt="image d'acceuil ">
 <img class="relative -top-[28rem] w-24 left-52" src="/images/Vector6.png" alt="image d'acceuil">
-   <img class="-mt-96" src="/images/image3.png" alt="">
+   <img class="-mt-96" src="/images/acceuilhero.png" alt="image hero accueil">
 
     </div>
-   <p class="relative -top-52 text-right  text-3xl text-Beige-150 font-oswald">VENEZ VIVRE LE </p>
+   <p class="relative  md:-top-80  -top-52 text-right md:text-4xl lg:text-5xl xl:text-7xl 2xl:text-9xl   text-3xl text-Beige-150 font-oswald">VENEZ VIVRE LE </p>
   
-   <p class="relative -top-52 text-right  text-3xl text-Beige-150 font-oswald">ROCK</p>
+   <p class="relative  md:-top-80   -top-52 text-right   md:text-4xl lg:text-5xl xl:text-7xl 2xl:text-9xl text-3xl text-Beige-150 font-oswald">ROCK</p>
 
 <div class="relative -top-48 flex justify-end">
 <rampage3 class="" />
@@ -59,12 +59,12 @@
 <div class="bg-Beige-150">
 
 <div class="mt-7">
-  <p class="w-[198.01px] font-medium text-left text-[#333]">
-    <span class="w-[198.01px] text-[30.164947509765625px] font-medium text-left text-[#333]"
+  <p class="w-full font-medium text-left text-[#333]">
+    <span class="w-full text-[30.164947509765625px]    font-oswald   md:text-4xl lg:text-5xl xl:text-7xl 2xl:text-9xl  font-medium text-left text-[#333]"
       >LINE UP </span
-    ><span class="w-[198.01px] text-xl font-medium text-left text-[#333]">2022 </span>
+    ><span class="w-[198.01px] text-xl font-medium  font-oswald    md:text-4xl lg:text-5xl xl:text-7xl 2xl:text-9xl text-left text-[#333]">2022 </span>
   </p>
-   <div class="w-[167px] h-1 -mt-1 bg-[#333]"></div>
+   <div class="w-4/12 h-1  xl:h-2   bg-[#333]"></div>
 
 
 
@@ -72,7 +72,7 @@
 </div>
 
 <div class=" flex justify-end">
-<img  src="/images/arrow1.png" alt="fleche ">
+<img  class="w-16" src="/images/Arrow2.png" alt="fleche ">
 </div>
 
  

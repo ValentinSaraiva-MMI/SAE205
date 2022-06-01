@@ -25,11 +25,16 @@
 
 
 
+     
+<img class="w-32  md:w-40 lg:w-48 xl:w-80   mb-5 ml-auto left-64 " src="/images/Vector8.png" alt="image d'acceuil">
+<img class="w-32 md:w-40 lg:w-48 xl:w-80 relative z-0 -top-80" src="/images/Vector5.png" alt="image d'acceuil"> 
 
-<img class="w-32  md:w-40 lg:w-48 xl:w-60   mb-5 ml-auto left-64 " src="/images/Vector8.png" alt="image d'acceuil">
-<img class="w-32 md:w-40 lg:w-48 xl:w-80 relative z-0 -top-80" src="/images/Vector5.png" alt="image d'acceuil">
+<div class="xl:relative xl:-top-72">
 <img class="w-28    md:w-40 lg:w-48 xl:w-80 xl:relative xl:left-96 xl:-mt-  relative -top-[22rem] left-14" src="/images/Vector7.png" alt="image d'acceuil ">
 <img class="relative -top-[28rem]  xl:-mt-32 w-24   md:w-40 lg:w-48 xl:w-72   left-52" src="/images/Vector6.png" alt="image d'acceuil">
+</div>
+
+
    <img class="-mt-96" src="/images/acceuilhero.png" alt="image hero accueil">
 
     </div>

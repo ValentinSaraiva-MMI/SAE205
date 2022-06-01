@@ -8,11 +8,22 @@
     Guide de Style Rampage Festival
   </h1>
   <div class="ml-2.5">
-    <h2 class="text-2xl mb-3 mt-3 underline underline-offset-4">Main Colors</h2>
-    <h1 class="w-20 h-10 rounded-xl mr-2.5 bg-gray-900 inline-block"></h1>
-    <h2 class="w-20 h-10 rounded-xl mr-2.5 bg-indigo-500 inline-block"></h2>
-    <h3 class="w-20 h-10 rounded-xl mr-2.5 bg-blue-900 inline-block"></h3>
-    <h3 class="w-20 h-10 rounded-xl mr-2.5 bg-tonic inline-block"></h3>
+    <h2 class="text-2xl mb-3 mt-3 underline underline-offset-4">Couleurs principales</h2>
+
+
+    <div class="mb-5">
+    <h1 class="w-20 h-10 rounded-xl mr-2.5 bg-noir inline-block"></h1>
+    <p class="-mt-2">#262626</p>
+        </div>
+
+  
+    <div class="mb-5">
+    <h2 class="w-20 h-10 rounded-xl mr-2.5 bg-Beige-150 inline-block"></h2>
+  <p class="-mt-2">#D4CEBD</p>
+     </div>
+
+    <h3 class="w-20 h-10 border-2 border-neutral-900 rounded-xl mr-2.5 bg-blue-900 inline-block"></h3>
+    
 
     <h2 class="text-xl mb-3">Shades of Purple</h2>
     <h1 class="w-20 h-10 rounded-l-xl bg-indigo-25 inline-block"></h1>

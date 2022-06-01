@@ -26,15 +26,30 @@
  <RouterLink to="/artisterock">   
 <div class="mx-auto text-[#9F9B8F] " >Rock</div>
  </RouterLink> 
+
+ <RouterLink to="/artisterock">
 <div class="mx-auto text-[#9F9B8F] " >Pop Rock</div>
+</RouterLink>
+
+ <RouterLink to="/artisterock">      
 <div class="mx-auto text-[#9F9B8F] " >Punk</div>
- </div>
+   </RouterLink>
 
 <div class="grid grid-cols-3 p-3 lg:text-xl font-oswald ">
 
-<div class="mx-auto text-[#9F9B8F] " >Meta</div>
+ <RouterLink to="/artisterock"> 
+<div class="mx-auto text-[#9F9B8F] " >Metal</div>
+</RouterLink>
+
+
+ <RouterLink to="/artisterock"> 
 <div class="mx-auto text-[#9F9B8F] " >Hard Rock</div>
+</RouterLink>
+
+
+ <RouterLink to="/artisterock"> 
 <div class="mx-auto text-[#9F9B8F] " >Blues</div>
+</RouterLink>
 </div>
 
 
@@ -94,7 +109,7 @@
 
 
 </div>
-
+</div>
 
 <!--   
  <ul >

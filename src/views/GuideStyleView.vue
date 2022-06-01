@@ -22,43 +22,26 @@
   <p class="-mt-2">#D4CEBD</p>
      </div>
 
-    <h3 class="w-20 h-10 border-2 border-neutral-900 rounded-xl mr-2.5 bg-blue-900 inline-block"></h3>
+   <div class="mb-5"></div>
+    <h3 class="w-20 h-10 border-2 border-neutral-900 rounded-xl mr-2.5 bg-white inline-block"></h3>
+      <p class="-mt-2">#FFFFFF</p>
+      </div>
     
 
-    <h2 class="text-xl mb-3">Shades of Purple</h2>
-    <h1 class="w-20 h-10 rounded-l-xl bg-indigo-25 inline-block"></h1>
-    <h2 class="w-20 h-10 bg-indigo-100 inline-block"></h2>
-    <h3 class="w-20 h-10 bg-indigo-200 inline-block"></h3>
-    <h3 class="w-20 h-10 bg-indigo-300 inline-block"></h3>
-    <h3 class="w-20 h-10 rounded-r-xl bg-indigo-400 inline-block"></h3>
-
-    <h2 class="text-xl mb-3">Greyscale</h2>
-    <h1 class="w-20 h-10 rounded-l-xl bg-gray-50 inline-block"></h1>
-    <h2 class="w-20 h-10 bg-gray-100 inline-block"></h2>
-    <h3 class="w-20 h-10 bg-gray-200 inline-block"></h3>
-    <h3 class="w-20 h-10 bg-gray-300 inline-block"></h3>
-    <h3 class="w-20 h-10 rounded-r-xl bg-gray-400 inline-block"></h3>
-    <br />
-    <h2 class="w-20 h-10 rounded-l-xl mt-2 bg-gray-500 inline-block"></h2>
-    <h3 class="w-20 h-10 bg-gray-600 inline-block"></h3>
-    <h3 class="w-20 h-10 bg-gray-700 inline-block"></h3>
-    <h3 class="w-20 h-10 bg-gray-800 inline-block"></h3>
-    <h3 class="w-20 h-10 rounded-r-xl bg-gray-900 inline-block"></h3>
-    <div class="mb-10"></div>
 
     <h2 class="text-2xl mb-3 underline underline-offset-4">
       Polices et taille du guide de style
     </h2>
 
-    <h2 class="text-xl font-roboto mb-2">Roboto</h2>
-    <p class="text-xl font-roboto">
-      Ceci est un texte de remplissage écrit en gros
+    <h2 class="text-xl font-oswald mb-2">Oswald</h2>
+    <p class="text-xl font-oswald">
+      Ceci est un texte de remplissage écrit en XL
     </p>
-    <p class="text-base font-roboto">
-      Ceci est un texte de remplissage écrit en taille moyenne
+    <p class="text-base font-oswald">
+      Ceci est un texte de remplissage écrit en taille de base (16px)
     </p>
-    <p class="text-xs font-roboto">
-      Ceci est un texte de remplissage écrit en petit
+    <p class="text-xs font-oswald">
+      Ceci est un texte de remplissage écrit en xs
     </p>
     <p class="font-bold font-roboto mt-1">Ceci est un texte écrit en gras</p>
     <p class="font-light font-roboto mt-1">Ceci est un texte écrit en light</p>
@@ -83,7 +66,7 @@
 
     <h2 class="text-2xl underline underline-offset-4 mt-5">Composants</h2>
    
-  </div>
+  
 
   <div
     class="

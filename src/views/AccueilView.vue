@@ -33,20 +33,21 @@
    <img class="-mt-96" src="/images/acceuilhero.png" alt="image hero accueil">
 
     </div>
-   <p class="relative  md:-top-80  -top-52 text-right md:text-4xl lg:text-5xl xl:text-7xl 2xl:text-9xl   text-3xl text-Beige-150 font-oswald">VENEZ VIVRE LE </p>
+   <p class="relative  md:-top-[800px]  lg:-top-[700px] -top-52 text-right md:text-4xl lg:text-5xl xl:text-7xl 2xl:text-9xl   text-3xl text-Beige-150 font-oswald">VENEZ VIVRE LE </p>
   
-   <p class="relative  md:-top-80   -top-52 text-right   md:text-4xl lg:text-5xl xl:text-7xl 2xl:text-9xl text-3xl text-Beige-150 font-oswald">ROCK</p>
+   <p class="relative  md:-top-[800px]  lg:-top-[700px] -top-52 text-right   md:text-4xl lg:text-5xl xl:text-7xl 2xl:text-9xl text-3xl text-Beige-150 font-oswald">ROCK</p>
 
-<div class="relative -top-48 flex justify-end">
-<rampage3 class="" />
-<titres1 />
+
+<div class="relative   md:-top-[800px]   lg:-top-[700px] flex justify-end">
+<rampage3 class="relative -top-48" />
 </div>
+<titres1 class="relative -top-56"/>
 
-
+<div class="bg-Beige-150">
 <div class="flex justify-center -mt-48" >
 
  <RouterLink to="/festival">   
-<boutonstroke>
+<boutonstroke class="xl:relative xl:bottom-56   ">
   <P>Le festival</P>
 </boutonstroke>
  </RouterLink>
@@ -56,7 +57,7 @@
 
 
 
-<div class="bg-Beige-150">
+
 
 <div class="mt-7 -mb-10">
   <p class="w-full font-medium text-left text-[#333]">

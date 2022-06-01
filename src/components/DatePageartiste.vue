@@ -1,8 +1,8 @@
 <template>
-  <div class=" mx-auto  mt-10 "
+  <div class=" mb-4 mt-10 "
 >
 
-     <p class="text-Beige-150 text-xl font-bold  text-left">
+     <p class="text-Beige-150 text-xl font-bold  ml-28 text-left">
     {{texte}}
     </p>
 </div>

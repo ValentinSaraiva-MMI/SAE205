@@ -21,34 +21,42 @@
 <div class="mx-auto text-Beige-150
 ">Tous </div>
 
-
+ <RouterLink to="/billeterie">            
 <div class="mx-auto text-[#9F9B8F] " >Rock</div>
+ </RouterLink>
 
 
-
+ <RouterLink to="/billeterie">                                 
 <div class="mx-auto text-[#9F9B8F] " >Pop Rock</div>
+ </RouterLink>
 
 
 
+
+ <RouterLink to="/billeterie">                                 
 <div class="mx-auto text-[#9F9B8F] " >Punk</div>
+ </RouterLink>
 
 </div>
 
 
  
-<div class="grid grid-cols-3 p-3 lg:text-xl font-oswald ">
+<div class="grid grid-cols-3 p-3 lg:text-xl text-center font-oswald ">
 
-
+ <RouterLink to="/billeterie">                                 
 <div class="mx-auto text-[#9F9B8F] " >Metal</div>
+ </RouterLink>
 
 
-
+ <RouterLink to="/billeterie">                                 
 <div class="mx-auto text-[#9F9B8F] " >Hard Rock</div>
+ </RouterLink>
 
 
 
-
+ <RouterLink to="/billeterie">                                 
 <div class="mx-auto text-[#9F9B8F] " >Blues</div>
+ </RouterLink>
 
 </div>
 

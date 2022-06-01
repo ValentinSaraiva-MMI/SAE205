@@ -28,6 +28,7 @@ const router = createRouter({
     { path: '/artistehard', name: 'ArtisteHardView', component: ArtisteHardView },
     { path: '/artistepunk', name: 'ArtistePunkView', component: ArtistePunkView },
     { path: '/artistemetal', name: 'ArtisteMetalView', component: ArtisteMetalView },
+    { path: '/artistedynamique', name: 'ArtisteDynamiqueView', component: ArtisteDynamiqueView },
 
 
 

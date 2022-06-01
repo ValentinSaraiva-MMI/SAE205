@@ -134,6 +134,13 @@ import ArtisteCard from "../components/ArtisteCardView.vue"
 export default {
     
     name: "ArtisteView",
+    data: function() {
+      return {
+        listeartistes:[],
+      }
+    },
+
+
 
      components: { DateVue, ArtisteCard }
    

@@ -6,10 +6,10 @@
    
     
 <div class="z-50">
-<div class="text-5xl text-Beige-150 z-40  font-oswald ml-5">
+<div class="text-5xl  md:text-6xl lg:text-7xl xl:text-8xl  text-Beige-150 z-40  font-oswald ml-5">
   BIENVENUE AU  
 </div>
-<div class="z-50 text-5xl  text-Beige-150 font-oswald stroke-Beige-150 stroke-1 text-right mr-24">
+<div class="z-50 text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-Beige-150 font-oswald stroke-Beige-150 stroke-1 text-right mr-24">
    RAMPAGE
 </div>
 
@@ -41,7 +41,7 @@
 <div class="relative   md:-top-[800px]   lg:-top-[700px] flex justify-end">
 <rampage3 class="relative -top-48" />
 </div>
-<titres1 class="relative -top-56"/>
+<titres1 class="    relative -top-56"/>
 
 <div class="bg-Beige-150">
 <div class="flex justify-center -mt-48" >
@@ -66,9 +66,6 @@
     ><span class="w-[198.01px] text-xl font-medium  font-oswald    md:text-4xl lg:text-5xl xl:text-7xl 2xl:text-9xl text-left text-[#333]">2022 </span>
   </p>
    <div class="w-4/12 h-1  xl:h-2   bg-[#333]"></div>
-
-
-
   
 </div>
 

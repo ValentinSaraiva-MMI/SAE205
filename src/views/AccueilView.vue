@@ -28,14 +28,14 @@
 
 <img class="w-32  md:w-40 lg:w-48 xl:w-60   mb-5 ml-auto left-64 " src="/images/Vector8.png" alt="image d'acceuil">
 <img class="w-32 md:w-40 lg:w-48 xl:w-80 relative z-0 -top-80" src="/images/Vector5.png" alt="image d'acceuil">
-<img class="w-28  md:w-40 lg:w-48 xl:w-60 xl:relative xl:left-96 xl:-mt-28 relative -top-[22rem] left-14" src="/images/Vector7.png" alt="image d'acceuil ">
-<img class="relative -top-[28rem] w-24  md:w-40 lg:w-48 xl:w-60   left-52" src="/images/Vector6.png" alt="image d'acceuil">
+<img class="w-28    md:w-40 lg:w-48 xl:w-80 xl:relative xl:left-96 xl:-mt-  relative -top-[22rem] left-14" src="/images/Vector7.png" alt="image d'acceuil ">
+<img class="relative -top-[28rem]  xl:-mt-32 w-24   md:w-40 lg:w-48 xl:w-72   left-52" src="/images/Vector6.png" alt="image d'acceuil">
    <img class="-mt-96" src="/images/acceuilhero.png" alt="image hero accueil">
 
     </div>
-   <p class="relative  md:-top-[800px]  lg:-top-[700px] -top-52 text-right md:text-4xl lg:text-5xl xl:text-7xl 2xl:text-9xl   text-3xl text-Beige-150 font-oswald">VENEZ VIVRE LE </p>
+   <p class="relative    lg:-top-[700px] -top-52 text-right md:text-4xl lg:text-5xl xl:text-7xl 2xl:text-9xl   text-3xl text-Beige-150 font-oswald">VENEZ VIVRE LE </p>
   
-   <p class="relative  md:-top-[800px]  lg:-top-[700px] -top-52 text-right   md:text-4xl lg:text-5xl xl:text-7xl 2xl:text-9xl text-3xl text-Beige-150 font-oswald">ROCK</p>
+   <p class="relative    lg:-top-[700px] -top-52 text-right   md:text-4xl lg:text-5xl xl:text-7xl 2xl:text-9xl text-3xl text-Beige-150 font-oswald">ROCK</p>
 
 
 <div class="relative   md:-top-[800px]   lg:-top-[700px] flex justify-end">

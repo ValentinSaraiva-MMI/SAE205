@@ -58,7 +58,7 @@
 
 <div class="bg-Beige-150">
 
-<div class="mt-7">
+<div class="mt-7 -mb-10">
   <p class="w-full font-medium text-left text-[#333]">
     <span class="w-full text-[30.164947509765625px]    font-oswald   md:text-4xl lg:text-5xl xl:text-7xl 2xl:text-9xl  font-medium text-left text-[#333]"
       >LINE UP </span
@@ -72,7 +72,7 @@
 </div>
 
 <div class=" flex justify-end">
-<img  class="w-16" src="/images/Arrow2.png" alt="fleche ">
+<img  class="w-16" src="/images/Arrow2.png" alt="fleche d'acceuil">
 </div>
 
  

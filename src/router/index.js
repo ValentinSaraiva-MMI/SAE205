@@ -14,6 +14,10 @@ import ArtistePunkView from '../views/ArtistePunkView.vue'
 import ArtisteMetalView from '../views/ArtisteMetalView.vue'
 import ArtisteDynamiqueView from '../views/ArtisteDynamiqueView.vue'
 
+
+
+
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -29,6 +33,7 @@ const router = createRouter({
     { path: '/artistepunk', name: 'ArtistePunkView', component: ArtistePunkView },
     { path: '/artistemetal', name: 'ArtisteMetalView', component: ArtisteMetalView },
     { path: '/artistedynamique', name: 'ArtisteDynamiqueView', component: ArtisteDynamiqueView },
+
 
 
 

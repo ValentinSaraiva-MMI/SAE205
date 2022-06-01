@@ -9,7 +9,7 @@
 
 
 
-  <div class="flex justify-center -mt-10" >
+  <div class="flex justify-center -mt-20" >
  <RouterLink to="/">
 <boutonstroke2>
   <P>Retour à l'acceuil</P>

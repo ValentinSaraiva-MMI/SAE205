@@ -22,7 +22,10 @@
 
 <div class="mx-auto text-Beige-150
 ">Tous </div>
+
+ <RouterLink to="/artisterock">   
 <div class="mx-auto text-[#9F9B8F] " >Rock</div>
+ </RouterLink> 
 <div class="mx-auto text-[#9F9B8F] " >Pop Rock</div>
 <div class="mx-auto text-[#9F9B8F] " >Punk</div>
  </div>
@@ -33,6 +36,9 @@
 <div class="mx-auto text-[#9F9B8F] " >Hard Rock</div>
 <div class="mx-auto text-[#9F9B8F] " >Blues</div>
 </div>
+
+
+
 
 
 

@@ -5,6 +5,8 @@ import ContactView from '../views/ContactView.vue'
 import MentionLegaleView from '../views/MentionLegaleView.vue'
 import Page404View from '../views/Page404View.vue'
 import ArtisteView from '../views/ArtisteView.vue'
+import ArtisteRockView from '../views/ArtisteRockView.vue'
+import ArtisteBluesView from '../views/ArtisteBluesView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -14,6 +16,8 @@ const router = createRouter({
     { path: '/contact', name: 'ContactView ', component: ContactView },
     { path: '/mentionlegale', name: 'MentionLegaleView ', component: MentionLegaleView },
     { path: '/artiste', name: 'ArtisteView', component: ArtisteView },
+    { path: '/artisterock', name: 'ArtisteRockView', component: ArtisteRockView },
+    { path: '/artisteblues', name: 'ArtisteBluesView', component: ArtisteBluesView },
 
 
 

@@ -32,11 +32,11 @@
                             <br/>
                             <div>
                                 <div>
-                                    <span>Date naissance</span>
+                                    <span>Date Parrution</span>
                                 </div>
                                 <input 
                                     type="date"
-                                    v-model="artistes.naissance"
+                                    v-model="artistes.parrution"
                                     format="dd/mm/yyyy" 
                                     required />                    
                             </div>
@@ -89,7 +89,7 @@ export default {
                 nom:null,               // son nom
                 prenom:null,            // son prénom
                 image:null,             // sa photo (nom du fichier)
-                naissance:null,         // sa date de naissance
+                parution:null,         // sa date de naissance
             }
         }
     },

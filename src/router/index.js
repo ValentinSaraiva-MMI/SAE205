@@ -14,6 +14,7 @@ import ArtistePunkView from '../views/ArtistePunkView.vue'
 import ArtisteMetalView from '../views/ArtisteMetalView.vue'
 import ArtisteDynamiqueView from '../views/ArtisteDynamiqueView.vue'
 import GuideStyleView from '../views/GuideStyleView.vue'
+import CreationView from '../views/CreationView.vue'
 
 
 
@@ -34,6 +35,7 @@ const router = createRouter({
     { path: '/artistemetal', name: 'ArtisteMetalView', component: ArtisteMetalView },
     { path: '/artistedynamique', name: 'ArtisteDynamiqueView', component: ArtisteDynamiqueView },
     { path: '/style-guide', name: 'GuideStyleView', component: GuideStyleView },
+    { path: '/creationvue', name: 'CreationView', component: CreationView },
 
 
 

@@ -36,7 +36,7 @@ export default {
         }));
         this.listeArtistes.forEach(function (personne) {
           const storage = getStorage();
-          const spaceRef = ref(storage, "Artistes/" + personne.image);
+          const spaceRef = ref(storage, "artistes/" + personne.image);
           getDownloadURL(spaceRef)
             .then((url) => {
               personne.image = url;

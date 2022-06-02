@@ -15,6 +15,8 @@ import ArtisteMetalView from '../views/ArtisteMetalView.vue'
 import ArtisteDynamiqueView from '../views/ArtisteDynamiqueView.vue'
 import GuideStyleView from '../views/GuideStyleView.vue'
 import CreationView from '../views/CreationView.vue'
+import BilleterieView from '../views/BilleterieView.vue'
+
 
 
 
@@ -36,6 +38,7 @@ const router = createRouter({
     { path: '/artistedynamique', name: 'ArtisteDynamiqueView', component: ArtisteDynamiqueView },
     { path: '/style-guide', name: 'GuideStyleView', component: GuideStyleView },
     { path: '/creationvue', name: 'CreationView', component: CreationView },
+    { path: '/billeterie', name: 'BilleterieView', component: BilleterieView },
 
 
 

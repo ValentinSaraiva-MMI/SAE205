@@ -1,21 +1,50 @@
 <template>
-    <div>
-    <img class="preview img-fluid" :src="imageData"/>
-                </div>
-
-                <div class="custom-file">
-                                    <input type="file" class="custom-file-input" ref="file" id="file" 
-                                    @change="previewImage">
-                                    <label class="custom-file-label" for="file">Sélectionner l'image</label>
+        <form enctype="multipart/form-data" 
+            @submit.prevent="createArtistes">
+                    <h5 class="text-white">Création artiste</h5>
+                    <div>
+                        <img class="preview img-fluid" :src="imageData"/>
                     </div>
-
+                    <span>Nom</span>
                     <input 
                         class="border-2"
                         placeholder="Nom de la personne"
                         v-model="artistes.nom"
-                        required/>
+                        required/>                    
+                                <div>
+                                    <span>Prénom</span>
+                                </div>
+                                <input 
+                                    class="border-2"
+                                    v-model="artistes.prenom"
+                                    placeholder="Prénom de la personne" key=
+                                    required />
+                            <div>
+                                <div>
+                                    <span>Photo</span>
+                                </div>
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" ref="file" id="file" 
+                                    @change="previewImage">
+                                    <label class="custom-file-label" for="file">Sélectionner l'image</label>
+                                </div>
+                            </div>
+                            <br/>
+                            <div>
+                                <div>
+                                    <span>Date naissance</span>
+                                </div>
+                                <input 
+                                    type="date"
+                                    v-model="artistes.naissance"
+                                    format="dd/mm/yyyy" 
+                                    required />                    
+                            </div>
+                            <br/>
+                            <div>
+                            </div>
 
-                        <div>
+                <div>   
                     <button type="submit">
                         Créer
                     </button>
@@ -23,14 +52,7 @@
                         <router-link to="/create">Cancel</router-link>
                     </button>
                 </div>
-
-                <input 
-                                    type="date"
-                                    v-model="artistes.naissance"
-                                    format="dd/mm/yyyy" 
-                                    required />
-
-
+        </form>    
 </template>
 
 <script>
@@ -90,7 +112,7 @@ export default {
             // Récupération de la liste des pays à partir de la query
             // La liste est synchronisée
             await onSnapshot(q, (snapshot) => {
-                this.listePays = snapshot.docs.map(doc => (
+                this.listeArtistes = snapshot.docs.map(doc => (
                     {id:doc.id, ...doc.data()}
                 ))  
             })      
@@ -100,7 +122,7 @@ export default {
             // Mise à jour de la photo du Artistes
             this.file = this.$refs.file.files[0];
             // Récupérer le nom du fichier pour la photo du Artistes
-            this.Artistes.image = this.file.name;
+            this.artistes.image = this.file.name;
             // Reference to the DOM input element
             // Reference du fichier à prévisualiser
             var input = event.target;
@@ -125,17 +147,17 @@ export default {
             // Obtenir storage Firebase
             const storage = getStorage();
             // Référence de l'image à uploader
-            const refStorage = ref(storage, 'artistes/'+this.Artistes.image);
+            const refStorage = ref(storage, 'artistes/'+this.artistes.photo);
             // Upload de l'image sur le Cloud Storage
             await uploadString(refStorage, this.imageData, 'data_url').then((snapshot) => {
                 console.log('Uploaded a base64 string');
                 
                 // Création du Artistes sur le Firestore
                 const db = getFirestore();
-                const docRef = addDoc(collection(db, 'artistes'), this.Artistes );
+                const docRef = addDoc(collection(db, 'artistes'), this.artistes );
             });
-            // redirection sur la liste des Artistess
-            this.$router.push('/liste');            
+            // redirection sur la liste des Artistes
+            this.$router.push('/');            
         }
     }
 

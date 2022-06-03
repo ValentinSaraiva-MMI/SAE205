@@ -1,12 +1,15 @@
 
   <template>
-  <figure class="h-14 w-28 rounded-md bg-Beige-150 text-stone-900">
-    <p class="mt-2 text-center text-3xl font-bold text-white">
+  <figure class="h-14 w-36 rounded-md bg-Beige-150 text-stone-900">
+    <p class="mt-2 text-center text-xs font-bold text-noir">
       {{ jour }}
     </p>
-    <p class="text-center text-xs font-bold text-white">
-      {{ prix }}
-    </p>
+    <div class="lace-content-center grid grid-cols-2 gap-1">
+      <p class="pt-1 text-center text-lg font-bold text-noir">
+        {{ prix }}
+      </p>
+      <button class="mt-2 h-7 w-14 rounded border-2 border-noir text-sm font-bold text-noir hover:bg-noir hover:text-white">Acheter</button>
+    </div>
   </figure>
 </template>
 

@@ -1,7 +1,9 @@
 
 <template>
-  check etst
-  <BoxBilleterieView jour="19" prix="Match organisés " />
+  <div class="h-screen bg-noir">
+    check etst
+    <BoxBilleterieView jour="Dimanche 25 Juin " prix="35 €" />
+  </div>
 </template>
 
 

@@ -1,21 +1,21 @@
 <template>
-  <div class>
-    <h5 class>Liste des artistes - Simple liste</h5>
-  </div>
-  <div v-for="artiste in listeArtistes" :key="artiste.id">
-    <p>{{ artiste.nom }}</p>
-    <img :src="artiste.image" alt="" />
+  <div class="bg-Beige-150">
+    <h5 class="font-oswald text-3xl text-noir">Liste des artistes</h5>
+    <div class="h-2 w-[200px] bg-noir"></div>
 
-    <BoutonstrokeblackView type="button" @click="deleteArtistes(artiste.id)" title="Supprimer"> Supprimer </BoutonstrokeblackView>
+    <div v-for="artiste in listeArtistes" :key="artiste.id">
+      <p class="mt-3 mb-2 font-oswald text-noir">{{ artiste.nom }}</p>
+      <img class="w-[80vh]" :src="artiste.image" alt="" />
+
+      <BoutonstrokeblackView type="button" @click="deleteArtistes(artiste.id)" title="Supprimer"> Supprimer </BoutonstrokeblackView>
+    </div>
     <button v-if="!affformajout" @click="affformajout = true">ajout</button>
     <div v-if="affformajout">
-      <!-- <input type="text" v-model="nom"> -->
-
-      <BoutonstrokeblackView class="mx-2 items-center" type="button" @click="createArtistes()" title="Créé"> Créé </BoutonstrokeblackView>
+      <creation-view />
       <button @click="affformajout = false">cancel</button>
     </div>
+    -->
   </div>
-  <hr />
 </template>
 
 
@@ -34,6 +34,7 @@ import {
   deleteDoc,
   onSnapshot,
 } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-firestore.js";
+import CreationView from "./CreationView.vue";
 
 export default {
   data() {
@@ -41,7 +42,6 @@ export default {
       listeArtistes: [],
       nom: null,
       affformajout: false,
-
     };
   },
   mounted() {
@@ -88,6 +88,6 @@ export default {
       await deleteDoc(docRef);
     },
   },
-  components: { Bouton1View, BoutonstrokeblackView },
+  components: { Bouton1View, BoutonstrokeblackView, CreationView },
 };
 </script>

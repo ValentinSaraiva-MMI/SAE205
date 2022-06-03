@@ -1,18 +1,19 @@
 <template>
-  <div class="bg-noir">
+  <div class="h-screen bg-noir">
     <form enctype="multipart/form-data" @submit.prevent="createArtistes">
-      div
-      <h5 class="text-xl text-Beige-150">Création artiste</h5>
-      <div class="h-2 w-[9rem] bg-Beige-150"></div>
+      <div class="mb-4">
+        <h5 class="text-xl text-Beige-150">Création artiste</h5>
+        <div class="h-2 w-[9rem] bg-Beige-150"></div>
+      </div>
       <div>
         <img class="preview img-fluid" :src="imageData" />
       </div>
 
-      <span class="font-oswald text-Beige-150">Nom</span>
-      <input class="border-2" placeholder="Nom de l'artiste" v-model="artistes.nom" required />
+      <span class="block font-oswald text-Beige-150">Nom</span>
+      <input class="block" placeholder="Nom de l'artiste" v-model="artistes.nom" required />
 
       <div>
-        <span class="text-Beige-150">Genre musique</span>
+        <span class="font-oswald text-Beige-150">Genre musique</span>
       </div>
       <input class="border-2" v-model="artistes.genre" placeholder="Genre de l'artiste" key="required" />
       <div>
@@ -35,8 +36,8 @@
       <div></div>
 
       <div>
-        <button class="w-auto rounded-lg border-2 border-noir text-Beige-150" type="submit">Créer</button>
-        <button class="w-auto rounded-lg border-2 border-noir text-Beige-150">
+        <button class="font-oswaldborder-noir w-auto rounded-lg border-2 px-2 font-oswald text-Beige-150" type="submit">Créer</button>
+        <button class="w-auto rounded-lg border-2 border-noir border-white px-2 font-oswald text-Beige-150">
           <router-link to="/create">Cancel</router-link>
         </button>
       </div>

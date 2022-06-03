@@ -1,53 +1,32 @@
 <template>
-
-<!-- 
+  <!-- 
     <p class="text-center text-3xl mt-2 text-white font-bold">
       {{nbr}}
      </p>
              -->
 
-    <div class="w-[325px] h-[308px] relative">
-  <img
-    :src=image class="w-[325px] h-[260px] absolute left-[-1px] top-[-1px] object-cover" alt="image d'artiste"
-  />
-  <div class="w-[325px] h-[260px] absolute left-[-1px] top-[-1px] "></div>
- 
+  <div class="relative h-[308px] w-[325px]">
+    <img :src="image" class="absolute left-[-1px] top-[-1px] h-[260px] w-[325px] object-cover" alt="image d'artiste" />
+    <div class="absolute left-[-1px] top-[-1px] h-[260px] w-[325px]"></div>
 
-
-  <p class="w-[325px] absolute left-0 top-64  font-oswald text-[28px] text-center text-[#d4cebd]">
-    {{nom}}
+    <p class="absolute left-0 top-64 w-[325px] text-center font-oswald text-[28px] text-[#d4cebd]">
+      {{ nom }}
     </p>
 
- 
-
- <p class="w-[77px] h-[28px] absolute left-[247px] text-center  font-oswald  top-[-1px] bg-[#d4cebd]">
-    {{genre}}
+    <p class="absolute left-[247px] top-[-1px] h-[28px] w-[77px] bg-[#d4cebd] text-center font-oswald">
+      {{ genre }}
     </p>
-
-
- 
-
-
-
-
-
-    </div>
-
-
-
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'ArtisteCard',
-  props:{
-    nom: 
-    {type: String},
-  image: 
-    {type: String},
+  name: "ArtisteCard",
+  props: {
+    nom: { type: String },
+    image: { type: String },
 
-   genre: 
-    {type: String},
-  }
-}
+    genre: { type: String },
+  },
+};
 </script>

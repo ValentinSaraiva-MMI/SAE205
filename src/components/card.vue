@@ -1,34 +1,32 @@
 <template>
-    <figure class="flex flex-col w-auto h-auto m-4">
-        <img
-            class="w-44   h-44 object-cover rounded-t-lg"
-            :src=image
-            alt="image de personne" />
-            <p :src=Nom />
-            <p :src=job />
+  <figure class="m-4 flex h-auto w-auto flex-col">
+    <img class="h-44 w-44 rounded-t-lg object-cover" :src="image" alt="image de personne" />
 
+    <p class="mt-2 text-center text-3xl font-bold text-white">
+      {{ nom }}
+    </p>
 
-  
-    </figure>
-</template>
+    <p class="text-center text-xs font-bold text-white">
+      {{ job }}
+    </p>
+  </figure>
+</template> 
 
 <script>
-
 export default {
- name: "card",
- components: {}, 
- props:{
-     image:{
-         type: String,
-     },
+  name: "card",
+  components: {},
+  props: {
+    image: {
+      type: String,
+    },
 
-       Nom:{
-         type: String,
-     },
-        job:{
-         type: String,
-     },
- }
-}
-
+    nom: {
+      type: String,
+    },
+    job: {
+      type: String,
+    },
+  },
+};
 </script>

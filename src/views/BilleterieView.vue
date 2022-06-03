@@ -1,9 +1,18 @@
+
 <template>
-  <p>Billeterie</p>
+  check etst
+  <BoxBilleterieView jour="19" prix="Match organisés " />
 </template>
 
 
-<script>
-import 
 
+
+<script>
+import BoxBilleterieView from "../components/BoxBilleterieView.vue";
+
+export default {
+  components: { BoxBilleterieView },
+};
 </script>
+
+

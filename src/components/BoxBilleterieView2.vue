@@ -1,6 +1,6 @@
 
   <template>
-  <figure class="h-14 w-80 rounded-md bg-Beige-150 text-stone-900">
+  <figure class="mb-9 h-20 w-80 rounded-md bg-Beige-150 text-stone-900">
     <p class="mt-2 text-center text-lg font-bold text-noir">
       {{ jour }}
     </p>

@@ -41,6 +41,7 @@ export default {
       listeArtistes: [],
       nom: null,
       affformajout: false,
+
     };
   },
   mounted() {

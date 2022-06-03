@@ -101,6 +101,20 @@ export default {
         console.log("listeArtistes", this.listeArtistes);
       });
     },
+
+    async createArtistes() {
+      const firestore = getFirestore();
+      const dbArtistes = collection(firestore, "artistes");
+      const docRef = await addDoc(dbArtistes, {
+        Nom: this.Nom,
+      });
+      //console.log('document créé avec le id : ', docRef.id);
+    },
+    async deleteArtistes(id) {
+      const firestore = getFirestore();
+      const docRef = doc(firestore, "artistes", id);
+      await deleteDoc(docRef);
+    },
   },
 };
 </script>

@@ -1,7 +1,7 @@
 
   <template>
-  <figure class="h-16 w-36 rounded-md bg-Beige-150 text-stone-900">
-    <p class="mt-2 text-center text-xs font-bold text-noir">
+  <figure class="h-14 w-80 rounded-md bg-Beige-150 text-stone-900">
+    <p class="mt-2 text-center text-lg font-bold text-noir">
       {{ jour }}
     </p>
     <div class="lace-content-center grid grid-cols-2 gap-1">
@@ -16,7 +16,7 @@
 
 <script>
 export default {
-  name: "BoxBilleterieView",
+  name: "BoxBilleterieView2",
   props: {
     jour: {
       type: String,

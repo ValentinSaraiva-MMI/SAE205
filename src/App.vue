@@ -1,21 +1,16 @@
 <template>
+  <div class="bg-noir">
+    <div class="inline-flex w-full">
+      <RouterLink class="my-auto" to="/">
+        <logofestival class="ml-3 w-8" />
+      </RouterLink>
+      <navbar />
+    </div>
+  </div>
 
+  <router-view />
 
-<div class="bg-noir">  
-<div class="inline-flex w-full">
-
-<RouterLink class="my-auto" to="/">
-<logofestival class="w-8 ml-3 "/>
-</RouterLink>
-<navbar />
-</div>
-</div>
-
-<router-view />
-
-
-
-<!--     
+  <!--     
 
 <div class="z-50">
 <div class="text-5xl text-Beige-150 z-40  font-oswald ml-5">
@@ -83,50 +78,64 @@
 </div>
 
   -->
-
-
 </template>
 
 <script>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink, RouterView } from "vue-router";
 
-
-//logo Menu Hamburger 
+//logo Menu Hamburger
 import MenuHamburger from "../src/components/icons/HamburgerMenue.vue";
 
-//logo festival 
-import logofestival from '../src/components/icons/logofestival.vue';
+//logo festival
+import logofestival from "../src/components/icons/logofestival.vue";
 
-//logo reseau sociaux 
-import LogoFacebook from '../src/components/icons/Facebook.vue';
-import LogoTwitter from '../src/components/icons/Twitter.vue';
-import LogoYoutube from '../src/components/icons/Youtube.vue';
-import LogoInstagram from '../src/components/icons/Instagram.vue';
+//logo reseau sociaux
+import LogoFacebook from "../src/components/icons/Facebook.vue";
+import LogoTwitter from "../src/components/icons/Twitter.vue";
+import LogoYoutube from "../src/components/icons/Youtube.vue";
+import LogoInstagram from "../src/components/icons/Instagram.vue";
 
-//logo map,localisation, mail 
-import Mail from '../src/components/icons/Mail.vue';
-import Map from '../src/components/icons/Map.vue';
-import Phone from '../src/components/icons/Phone.vue';
+//logo map,localisation, mail
+import Mail from "../src/components/icons/Mail.vue";
+import Map from "../src/components/icons/Map.vue";
+import Phone from "../src/components/icons/Phone.vue";
 import HamburgerMenue from "../src/components/icons/HamburgerMenue.vue";
-import Navbar from './components/navbar.vue';
+import Navbar from "./components/navbar.vue";
 
-//bouton 
-import Bouton1 from './components/Bouton1View.vue';
-import Bouton1View from './components/Bouton1View.vue';
-import boutonstroke from './components/BoutonstrokeView.vue';
+//bouton
+import Bouton1 from "./components/Bouton1View.vue";
+import Bouton1View from "./components/Bouton1View.vue";
+import boutonstroke from "./components/BoutonstrokeView.vue";
 
 //component
-import undertitle1 from './components/Rampage3.vue';
-import Rampage3 from './components/Rampage3.vue';
-import titres1 from './components/Titre1.vue';
-import BoutonstrokeView from './components/BoutonstrokeView.vue';
-import BoutonstrokeView1 from './components/BoutonstrokeView.vue';
-
-
-
+import undertitle1 from "./components/Rampage3.vue";
+import Rampage3 from "./components/Rampage3.vue";
+import titres1 from "./components/Titre1.vue";
+import BoutonstrokeView from "./components/BoutonstrokeView.vue";
+import BoutonstrokeView1 from "./components/BoutonstrokeView.vue";
 
 export default {
-  components: { boutonstroke, titres1, undertitle1, Bouton1, logofestival, LogoFacebook, LogoInstagram, LogoYoutube, LogoTwitter, Mail, Map, Phone, MenuHamburger, HamburgerMenue, Navbar, Bouton1View, Rampage3, BoutonstrokeView, BoutonstrokeView1 },
+  components: {
+    boutonstroke,
+    titres1,
+    undertitle1,
+    Bouton1,
+    logofestival,
+    LogoFacebook,
+    LogoInstagram,
+    LogoYoutube,
+    LogoTwitter,
+    Mail,
+    Map,
+    Phone,
+    MenuHamburger,
+    HamburgerMenue,
+    Navbar,
+    Bouton1View,
+    Rampage3,
+    BoutonstrokeView,
+    BoutonstrokeView1,
+  },
 };
 </script>
 

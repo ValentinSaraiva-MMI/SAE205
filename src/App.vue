@@ -140,6 +140,10 @@
       Mes <br />
       Compétences
     </h2>
+
+    <div>
+      <cardComponent class="fill-white text-white" nom="Html 5" image="src/components/icons/icons-competences/html.svg" />
+    </div>
   </div>
 
   <router-view />
@@ -164,12 +168,14 @@ import LogoValentin from "./components/icons/Logo.vue";
 //component
 
 import navbar from "./components/navbar.vue";
+import cardComponent from "./components/card-component.vue";
 
 export default {
   components: {
     LogoValentin,
     guillement,
     navbar,
+    cardComponent,
   },
 };
 </script>

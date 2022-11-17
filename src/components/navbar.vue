@@ -1,75 +1,72 @@
 <template>
-    <div class="flex items-center justify-between w-full h-16 p-7 ">
-        <div class="flex items-center justify-between w-32 h-12 p-1">
-           
-        </div>
-<ul class="hidden z-50 flex-auto x-justify-center gap-2 sm:flex ">
-  <!-- menu deployée -->
- 
-  <li class="flex flex-auto mx-2  text-base font-oswald text-Beige-150 "><router-link to="/programmation">Programmation</router-link></li>
-  <li class="flex flex-auto mx-2  text-base font-oswald text-Beige-150" ><router-link to="/artiste">Artiste</router-link></li>
-  <li class="flex flex-auto mx-2  text-base font-oswald text-Beige-150" ><router-link to="/festival">Festival</router-link></li>
-    <li class="flex flex-auto mx-2 text-base font-oswald text-Beige-150" ><router-link to="/contact">Contact</router-link></li>
+  <div class="flex h-16 w-full items-center justify-between p-7">
+    <div class="flex h-12 w-32 place-items-center justify-between p-1"></div>
+    <ul class="x-justify-center z-50 hidden flex-auto gap-2 sm:flex">
+      <!-- menu deployée -->
 
- 
-</ul>
+      <li class="hover-underline-animation mx-2 flex flex-auto font-lato text-base text-white">
+        <router-link to="/programmation">Accueil</router-link>
+      </li>
+      <li class="hover-underline-animation mx-2 flex flex-auto font-lato text-base text-white">
+        <router-link to="/artiste">À propos</router-link>
+      </li>
+      <li class="hover-underline-animation mx-2 flex flex-auto font-lato text-base text-white">
+        <router-link to="/festival">Projets</router-link>
+      </li>
+      <li class="hover-underline-animation mx-2 flex flex-auto font-lato text-base text-white">
+        <router-link to="/contact">CV</router-link>
+      </li>
+      <li class="hover-underline-animation mx-2 flex flex-auto font-lato text-base text-white">
+        <router-link to="/contact">Contact</router-link>
+      </li>
+    </ul>
 
-      <button class="relative z-111 text-xl sm:hidden"
+    <button
+      class="relative z-111 text-xl sm:hidden"
       aria-haspopup="true"
-                aria-controls="menu"
-                :aria-expanded="menuOuvert" @click="menuOuvert = !menuOuvert">
+      aria-controls="menu"
+      :aria-expanded="menuOuvert"
+      @click="menuOuvert = !menuOuvert"
+    >
+      <menu-hamburger-portfolio class="flex w-7" />
+    </button>
 
-       <hamburger-menue-vue class=" flex w-7"/>
-          </button>
-
-                
-      <div id="menu"
-          class="fixed overflow-y-hidden inset-0 translate-x-full  z-100      bg-noir motion-safe:duration-1000 motion-safe:transition-transform"
-          :class="{ 'translate-x-0': menuOuvert }">
-
-<div class="mt-7">
-
-<p class="text-Beige-150 text-4xl  ml-4  font-oswald  inline-block pr-3 ">RAMPAGE</p>
-<p class="text-Beige-150 text-2xl  ml-4   font-oswald  inline-block">3 éme édition</p>
-  
-</div>
-
-
-        <ul class=" font-oswald text-Beige-150 ml-4  text-5xl h-screen flex flex-col justify-evenly">
-          <li class=""><router-link to="/">PROGRAMMATION</router-link></li>
-          <li class=""><router-link to="/artiste">ARTISTE</router-link></li>
-          <li class=""><router-link to="/festival">FESTIVAL</router-link></li>
-            <li class=""><router-link to="/">MARKET </router-link></li>
-          <li class=""><router-link to="/contact">CONTACT</router-link></li>
-         
-        </ul>
-
+    <div
+      id="menu"
+      class="fixed inset-0 z-100 translate-x-full overflow-y-hidden bg-noir motion-safe:transition-transform motion-safe:duration-1000"
+      :class="{ 'translate-x-0': menuOuvert }"
+    >
+      <div class="mt-7">
+        <p class="ml-4 inline-block pr-3 font-oswald text-4xl text-Beige-150">RAMPAGE</p>
+        <p class="ml-4 inline-block font-oswald text-2xl text-Beige-150">3 éme édition</p>
       </div>
 
+      <ul class="ml-4 flex h-screen flex-col justify-evenly font-oswald text-5xl text-Beige-150">
+        <li class=""><router-link to="/">Accueil </router-link></li>
+        <li class=""><router-link to="/artiste">À propos </router-link></li>
+        <li class=""><router-link to="/festival">Projets </router-link></li>
+        <li class=""><router-link to="/">CV </router-link></li>
+        <li class=""><router-link to="/contact">Contact</router-link></li>
+      </ul>
+    </div>
 
-
-    
-        <!-- "z-50" place le menu eu dessus de tous les autes éléments.
+    <!-- "z-50" place le menu eu dessus de tous les autes éléments.
             "relative" est indispensable avec un z- sinon ce dernier n'est pas pris en compte
             "sm:hidden permet de cacher l'élément lorsque l'écran est moins large que 640px    -->
-  
-
-    </div>
+  </div>
 </template>
 
 <script >
-
-
 import HamburgerMenueVue from "./icons/HamburgerMenue.vue";
-
+import MenuHamburgerPortfolio from "./icons/HamburgerMenu.vue";
 
 export default {
- name: "navbar",
- components: {HamburgerMenueVue},
- data() {
+  name: "navbar",
+  components: { HamburgerMenueVue, MenuHamburgerPortfolio },
+  data() {
     return {
       menuOuvert: false,
     };
   },
-}
+};
 </script>

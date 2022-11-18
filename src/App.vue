@@ -241,13 +241,37 @@
 
     <div class="ml-96 mt-24 grid max-w-7xl grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(30rem,1fr))]">
       <projetcard date="2022" titre="Rampage" tache="Intégration, UX design & Développement " image="public/images/mockup/rampage.webp" />
-      <projetcard date="2022" titre="Olympe" tache="Intégration & UX design " image="public/images/mockupolympe2.webp" />
-      <projetcard date="2022" titre="Rampage" tache="Intégration, UX design & Développement " image="public/images/mockup/rampage.webp" />
-      <projetcard date="2022" titre="Rampage" tache="Intégration, UX design & Développement " image="public/images/mockup/rampage.webp" />
-      <projetcard date="2022" titre="Rampage" tache="Intégration, UX design & Développement " image="public/images/mockup/rampage.webp" />
-      <projetcard date="2022" titre="Rampage" tache="Intégration, UX design & Développement " image="public/images/mockup/rampage.webp" />
-      <projetcard date="2022" titre="Rampage" tache="Intégration, UX design & Développement " image="public/images/mockup/rampage.webp" />
-      <projetcard date="2022" titre="Rampage" tache="Intégration, UX design & Développement " image="public/images/mockup/rampage.webp" />
+      <projetcard date="2022" titre="Olympe" tache="Intégration & UX design " image="public/images/mockup/mochupolympe2.webp" />
+      <projetcard date="2022" titre="Montain Climber " tache="Intégration WordPress " image="public/images/mockup/montainclimber.webp" />
+      <projetcard date="2022" titre="Ça match ? " tache="Intégration & UX design " image="public/images/mockup/camatch.webp" />
+      <projetcard
+        date="2022"
+        titre="Borne de commande
+Musée  "
+        tache="Intégration, UX design & Développement "
+        image="public/images/mockup/borne.webp"
+      />
+      <projetcard date="2022" titre="Velotaf" tache="Intégration WordPress" image="public/images/mockup/velotaf.webp" />
+      <projetcard date="2022" titre="Webjam 2022 " tache="Développement & level design  " image="public/images/mockup/webjam.webp" />
+      <projetcard
+        date="2022"
+        titre="First stone "
+        tache="Développement, level design, sound design
+Ux design "
+        image="public/images/mockup/rampage.webp"
+      />
+    </div>
+
+    <div class="ml-[10%] mt-60">
+      <h2 class="font-montserrat text-[5.313rem] font-semibold text-white">COMMENÇONS UN PROJET</h2>
+
+      <button
+        class="mt-12 h-10 border-2 border-white px-10 text-lg text-white transition-[color,box-shadow] duration-[400ms,450ms] hover:border-noir hover:text-noir hover:shadow-[inset_14rem_0_0_0] hover:shadow-white"
+      >
+        Contact
+      </button>
+
+      <hr class="mx-auto mt-20 flex h-1 w-2/3 border-t-[#808080]" />
     </div>
   </div>
 

@@ -22,7 +22,7 @@
 
           <p class="fake-chevron text-center text-xl text-[#C9C9C9]">Etudiants intrégrateur web</p>
 
-          <div class="mt-16 ml-32 flex h-20 space-x-4">
+          <div class="mt-16 ml-36 flex h-20 space-x-4">
             <button
               class="btn-ctc h-10 border-2 border-white px-10 text-lg text-white transition-[color,box-shadow] duration-[400ms,450ms] hover:border-noir hover:text-noir hover:shadow-[inset_14rem_0_0_0] hover:shadow-white"
             >
@@ -141,8 +141,96 @@
       Compétences
     </h2>
 
-    <div>
-      <cardComponent class="fill-white text-white" nom="Html 5" image="src/components/icons/icons-competences/html.svg" />
+    <div class="ml-96 mt-24 grid max-w-7xl grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(20rem,1fr))]">
+      <div>
+        <cardComponent class="fill-white text-white" nom="Html 5" image="src/components/icons/icons-competences/html.svg" />
+        <svg class="-mt-6 mb-20" width="166" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.5" y="0.5" width="164.242" height="7.02148" stroke="white" stroke-linejoin="bevel" />
+          <rect width="132.194" height="8.02148" fill="white" />
+        </svg>
+      </div>
+
+      <div>
+        <cardComponent class="fill-white text-white" nom="CSS 3" image="src/components/icons/icons-competences/css.svg" />
+        <svg class="-mt-6 mb-4" width="166" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.5" y="0.5" width="164.242" height="7.02148" stroke="white" stroke-linejoin="bevel" />
+          <rect width="132.194" height="8.02148" fill="white" />
+        </svg>
+      </div>
+
+      <div>
+        <cardComponent class="fill-white text-white" nom="JavaScript" image="src/components/icons/icons-competences/js.svg" />
+        <svg class="-mt-6 mb-4" width="166" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.5" y="0.5" width="164.242" height="7.02148" stroke="white" />
+          <rect width="66.097" height="8.02148" fill="white" />
+        </svg>
+      </div>
+
+      <div>
+        <cardComponent class="fill-white text-white" nom="C#" image="src/components/icons/icons-competences/csharp.svg" />
+        <svg class="-mt-6 mb-4" width="166" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.945801" y="1.24121" width="164.242" height="7.02148" stroke="white" />
+          <rect x="0.445801" y="0.741211" width="49.8" height="8.02148" fill="white" />
+        </svg>
+      </div>
+
+      <div>
+        <cardComponent class="fill-white text-white" nom="Tailwind CSS " image="src/components/icons/icons-competences/tailwind.svg" />
+        <svg class="-mt-6 mb-20" width="166" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.5" y="0.5" width="164.242" height="7.02148" stroke="white" stroke-linejoin="bevel" />
+          <rect width="132.194" height="8.02148" fill="white" />
+        </svg>
+      </div>
+      <div>
+        <cardComponent class="fill-white text-white" nom="Figma " image="src/components/icons/icons-competences/figma.svg" />
+        <svg class="-mt-6 mb-20" width="166" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.5" y="0.5" width="164.242" height="7.02148" stroke="white" stroke-linejoin="bevel" />
+          <rect width="132.194" height="8.02148" fill="white" />
+        </svg>
+      </div>
+      <div>
+        <cardComponent class="fill-white text-white" nom="Unity" image="src/components/icons/icons-competences/unity.svg" />
+        <svg class="-mt-6 mb-4" width="166" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.945801" y="1.24121" width="164.242" height="7.02148" stroke="white" />
+          <rect x="0.445801" y="0.741211" width="49.8" height="8.02148" fill="white" />
+        </svg>
+      </div>
+      <div>
+        <cardComponent class="fill-white text-white" nom="Wordpress" image="src/components/icons/icons-competences/wordpress.svg" />
+        <svg class="-mt-6 mb-4" width="166" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.5" y="0.5" width="164.242" height="7.02148" stroke="white" />
+          <rect width="66.097" height="8.02148" fill="white" />
+        </svg>
+      </div>
+
+      <div>
+        <cardComponent class="fill-white text-white" nom="Adobe Creative Suite" image="src/components/icons/icons-competences/adobe.svg" />
+        <svg class="-mt-6 mb-4" width="166" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.5" y="0.5" width="164.242" height="7.02148" stroke="white" />
+          <rect width="66.097" height="8.02148" fill="white" />
+        </svg>
+      </div>
+      <div>
+        <cardComponent class="fill-white text-white" nom="Microsoft 365 " image="src/components/icons/icons-competences/msoffice.svg" />
+        <svg class="-mt-6 mb-20" width="166" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.5" y="0.5" width="164.242" height="7.02148" stroke="white" stroke-linejoin="bevel" />
+          <rect width="132.194" height="8.02148" fill="white" />
+        </svg>
+      </div>
+      <div>
+        <cardComponent class="fill-white text-white" nom="Firebase" image="src/components/icons/icons-competences/firebase.svg" />
+        <svg class="-mt-6 mb-4" width="166" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.945801" y="1.24121" width="164.242" height="7.02148" stroke="white" />
+          <rect x="0.445801" y="0.741211" width="49.8" height="8.02148" fill="white" />
+        </svg>
+      </div>
+      <div>
+        <cardComponent class="fill-white text-white" nom="Microsoft Azure" image="src/components/icons/icons-competences/azure.svg" />
+        <svg class="-mt-6 mb-4" width="166" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.945801" y="1.24121" width="164.242" height="7.02148" stroke="white" />
+          <rect x="0.445801" y="0.741211" width="49.8" height="8.02148" fill="white" />
+        </svg>
+      </div>
     </div>
   </div>
 

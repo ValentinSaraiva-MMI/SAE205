@@ -232,6 +232,23 @@
         </svg>
       </div>
     </div>
+
+    <div>
+      <hr />
+      <h2 class="stroke-custom my-6 text-center text-8xl text-noir duration-500 ease-out hover:text-white">Mes Projets</h2>
+      <hr />
+    </div>
+
+    <div class="ml-96 mt-24 grid max-w-7xl grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(30rem,1fr))]">
+      <projetcard date="2022" titre="Rampage" tache="Intégration, UX design & Développement " image="public/images/mockup/rampage.webp" />
+      <projetcard date="2022" titre="Olympe" tache="Intégration & UX design " image="public/images/mockupolympe2.webp" />
+      <projetcard date="2022" titre="Rampage" tache="Intégration, UX design & Développement " image="public/images/mockup/rampage.webp" />
+      <projetcard date="2022" titre="Rampage" tache="Intégration, UX design & Développement " image="public/images/mockup/rampage.webp" />
+      <projetcard date="2022" titre="Rampage" tache="Intégration, UX design & Développement " image="public/images/mockup/rampage.webp" />
+      <projetcard date="2022" titre="Rampage" tache="Intégration, UX design & Développement " image="public/images/mockup/rampage.webp" />
+      <projetcard date="2022" titre="Rampage" tache="Intégration, UX design & Développement " image="public/images/mockup/rampage.webp" />
+      <projetcard date="2022" titre="Rampage" tache="Intégration, UX design & Développement " image="public/images/mockup/rampage.webp" />
+    </div>
   </div>
 
   <router-view />
@@ -256,6 +273,7 @@ import LogoValentin from "./components/icons/Logo.vue";
 //component
 
 import navbar from "./components/navbar.vue";
+import projetcard from "./components/projet.vue";
 import cardComponent from "./components/card-component.vue";
 
 export default {
@@ -264,6 +282,7 @@ export default {
     guillement,
     navbar,
     cardComponent,
+    projetcard,
   },
 };
 </script>

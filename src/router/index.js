@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import AccueilView from "../views/AccueilView.vue";
 import AproposView from "../views/AproposView.vue";
+import ContactView from "../views/ContactView.vue";
 
 import Page404View from "../views/Page404View.vue";
 
@@ -9,6 +10,7 @@ const router = createRouter({
   routes: [
     { path: "/", name: "Accueil", component: AccueilView },
     { path: "/apropos", name: "AproposView", component: AproposView },
+    { path: "/contact", name: "ContactView", component: ContactView },
 
     //page 404
     {

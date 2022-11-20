@@ -5,7 +5,7 @@
       <!-- menu deployée -->
 
       <li class="hover-underline-animation mx-2 flex flex-auto font-lato text-base text-white">
-        <router-link to="/programmation">Accueil</router-link>
+        <router-link to="/">Accueil</router-link>
       </li>
       <li class="hover-underline-animation mx-2 flex flex-auto font-lato text-base text-white">
         <router-link to="/artiste">À propos</router-link>
@@ -13,9 +13,11 @@
       <li class="hover-underline-animation mx-2 flex flex-auto font-lato text-base text-white">
         <router-link to="/festival">Projets</router-link>
       </li>
+
       <li class="hover-underline-animation mx-2 flex flex-auto font-lato text-base text-white">
         <router-link to="/contact">CV</router-link>
       </li>
+
       <li class="hover-underline-animation mx-2 flex flex-auto font-lato text-base text-white">
         <router-link to="/contact">Contact</router-link>
       </li>
@@ -56,7 +58,7 @@
   </div>
 </template>
 
-<script >
+<script>
 import HamburgerMenueVue from "./icons/HamburgerMenue.vue";
 import MenuHamburgerPortfolio from "./icons/HamburgerMenu.vue";
 

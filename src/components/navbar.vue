@@ -8,7 +8,7 @@
         <router-link to="/">Accueil</router-link>
       </li>
       <li class="hover-underline-animation mx-2 flex flex-auto font-lato text-base text-white">
-        <router-link to="/artiste">À propos</router-link>
+        <router-link to="/apropos">À propos</router-link>
       </li>
       <li class="hover-underline-animation mx-2 flex flex-auto font-lato text-base text-white">
         <router-link to="/festival">Projets</router-link>

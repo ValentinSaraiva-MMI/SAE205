@@ -7,7 +7,7 @@
       </RouterLink>
       <navbar />
     </div>
-
+    <!--NETLIFY INFOMANIAK-->
     <router-view />
   </div>
 </template>

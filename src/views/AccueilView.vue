@@ -96,7 +96,7 @@
 
   <hr class="mx-auto mt-44 flex h-1 w-2/3 border-t-[#808080]" />
 
-  <h2 class="ml-28 mt-16 text-8xl font-medium text-white">À propos</h2>
+  <h2 class="ml-28 mt-16 font-montserrat text-8xl font-medium text-white">À propos</h2>
 
   <div class="mt-12 ml-16 mr-10 flex flex-row gap-6">
     <div class="basis-1/6">
@@ -340,9 +340,11 @@ import { RouterLink, RouterView } from "vue-router";
 
 import projetcard from "../components/projet.vue";
 import cardComponent from "../components/card-component.vue";
+import guillement from "../components/icons/guillement.vue";
 
 export default {
   components: {
+    guillement,
     cardComponent,
     projetcard,
   },

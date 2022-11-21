@@ -24,9 +24,13 @@
       <h2 class="mt-[38vh] font-montserrat text-8xl font-medium text-white">Contact</h2>
 
       <!--Corriger
+
+
+
+
       <form action="https://api.web3forms.com/submit" method="POST" class="mr-auto ml-auto w-full max-w-screen-xl">
         <input type="hidden" name="access_key" value="60e7cf85-4b5c-4ee1-ab1f-6cf8fd02b92b" />
-        <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+
         <div class="-mx-3 mb-6 flex flex-wrap">
           <div class="mb-6 w-full px-3 md:mb-0 md:w-1/2">
             <input
@@ -34,19 +38,22 @@
               id="grid-first-name"
               type="text"
               placeholder="Nom "
+              required
             />
-            <p class="text-xs italic text-red-500">Veuillez renseigner ce champs.</p>
           </div>
 
           <div class="w-full px-3 md:w-1/2">
             <input
               class="mt-2 mb-3 block w-full appearance-none rounded border border-red-500 bg-gray-200 py-3 px-4 leading-tight text-noir focus:bg-white focus:outline-none"
-              id="email"
-              type="text"
+              type="email"
               placeholder="Email "
+              name="email"
+              required
             />
-            <p class="text-xs italic text-red-500">Veuillez renseigner ce champs.</p>
           </div>
+
+     
+
         </div>
 
         <div class="-mx-3 mb-2 flex flex-wrap">
@@ -66,7 +73,8 @@
           Submit Form
         </button>
       </form>
--->
+
+      -->
 
       <form action="https://api.web3forms.com/submit" class="mr-auto ml-auto w-full max-w-screen-xl" method="POST">
         <input type="hidden" name="access_key" value="60e7cf85-4b5c-4ee1-ab1f-6cf8fd02b92b" />
@@ -80,6 +88,9 @@
               name="name"
               required
             />
+          </div>
+
+          <div class="w-full px-3 md:w-1/2">
             <input
               type="email"
               class="mt-2 mb-3 block w-full appearance-none rounded border border-red-500 bg-gray-200 py-3 px-4 leading-tight text-noir focus:bg-white focus:outline-none"
@@ -88,17 +99,26 @@
               required
             />
           </div>
-
-          Message :<textarea name="message" required></textarea>
-          <input type="hidden" name="redirect" value="https://web3forms.com/success" />
-
-          <button
-            class="btn-ctc h-10 border-2 border-white px-10 text-lg text-white transition-[color,box-shadow] duration-[400ms,450ms] hover:border-noir hover:text-noir hover:shadow-[inset_14rem_0_0_0] hover:shadow-white"
-            type="submit"
-          >
-            Submit Form
-          </button>
         </div>
+
+        <div class="-mx-3 mb-2 flex flex-wrap">
+          <textarea
+            placeholder="Détailles de projet "
+            rows="1"
+            class="mx-3 block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-200 dark:text-noir dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+            name="message"
+            required
+          ></textarea>
+        </div>
+
+        <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+
+        <button
+          class="h-10 border-2 border-white px-10 text-lg text-white transition-[color,box-shadow] duration-[400ms,450ms] hover:border-noir hover:text-noir hover:shadow-[inset_14rem_0_0_0] hover:shadow-white"
+          type="submit"
+        >
+          Submit Form
+        </button>
       </form>
     </div>
   </div>

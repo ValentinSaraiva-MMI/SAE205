@@ -76,7 +76,7 @@
 
       -->
 
-      <form action="https://api.web3forms.com/submit" class="mr-auto ml-auto w-full max-w-screen-xl" method="POST">
+      <form action="https://api.web3forms.com/submit" class="mr-auto ml-auto mt-[7vh] w-full max-w-screen-xl" method="POST">
         <input type="hidden" name="access_key" value="60e7cf85-4b5c-4ee1-ab1f-6cf8fd02b92b" />
 
         <div class="-mx-3 mb-6 flex flex-wrap">
@@ -114,10 +114,10 @@
         <input type="hidden" name="redirect" value="https://web3forms.com/success" />
 
         <button
-          class="h-10 border-2 border-white px-10 text-lg text-white transition-[color,box-shadow] duration-[400ms,450ms] hover:border-noir hover:text-noir hover:shadow-[inset_14rem_0_0_0] hover:shadow-white"
+          class="mt-[8vh] h-10 border-2 border-white px-10 text-lg text-white transition-[color,box-shadow] duration-[400ms,450ms] hover:border-noir hover:text-noir hover:shadow-[inset_14rem_0_0_0] hover:shadow-white"
           type="submit"
         >
-          Submit Form
+          Envoyer
         </button>
       </form>
     </div>

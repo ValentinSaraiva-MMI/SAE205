@@ -84,7 +84,7 @@
             <input
               type="text"
               placeholder="Nom "
-              class="mt-2 mb-3 block w-full appearance-none rounded border border-red-500 bg-gray-200 py-3 px-4 leading-tight text-noir focus:bg-white focus:outline-none"
+              class="mt-2 mb-3 block w-full appearance-none rounded border border-b-2 border-none py-3 px-4 leading-tight text-noir focus:bg-white focus:outline-none"
               name="name"
               required
             />
@@ -119,6 +119,15 @@
         >
           Envoyer
         </button>
+        <div class="inline-block">
+          <a class="font-bold text-white" href="mailto:valentinsa0701@gmail.com">
+            <p class="font-bold text-white">Email <span class="font-light text-white">valentinsa0701@gmail.com</span></p>
+          </a>
+        </div>
+
+        <div class="inline-block">
+          <p class="font-bold text-white">Téléphone <span class="font-light text-white">valentinsa0701@gmail.com</span></p>
+        </div>
       </form>
     </div>
   </div>

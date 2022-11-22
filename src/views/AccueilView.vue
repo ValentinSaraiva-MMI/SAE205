@@ -272,11 +272,13 @@ Ux design "
   <div class="ml-[10%] mt-60">
     <h2 class="font-montserrat text-[5.313rem] font-semibold text-white">COMMENÇONS UN PROJET</h2>
 
-    <button
-      class="mt-12 h-10 border-2 border-white px-10 text-lg text-white transition-[color,box-shadow] duration-[400ms,450ms] hover:border-noir hover:text-noir hover:shadow-[inset_14rem_0_0_0] hover:shadow-white"
-    >
-      Contact
-    </button>
+    <a href="/contact">
+      <button
+        class="mt-12 h-10 border-2 border-white px-10 text-lg text-white transition-[color,box-shadow] duration-[400ms,450ms] hover:border-noir hover:text-noir hover:shadow-[inset_14rem_0_0_0] hover:shadow-white"
+      >
+        Contact
+      </button>
+    </a>
 
     <hr class="mx-auto mt-20 flex h-1 w-2/3 border-t-[#808080]" />
 

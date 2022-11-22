@@ -15,7 +15,7 @@
       </li>
 
       <li class="hover-underline-animation mx-2 flex flex-auto font-lato text-base text-white">
-        <router-link to="/contact">CV</router-link>
+        <a href="../public/document/CV.pdf" download>CV</a>
       </li>
 
       <li class="hover-underline-animation mx-2 flex flex-auto font-lato text-base text-white">

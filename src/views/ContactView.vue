@@ -84,7 +84,7 @@
             <input
               type="text"
               placeholder="Nom "
-              class="form-control mt-2 mb-3 block w-full py-3 px-4 leading-tight text-noir"
+              class="form-control mt-2 mb-3 block w-full py-3 px-4 leading-tight text-white"
               name="name"
               required
             />
@@ -93,7 +93,7 @@
           <div class="w-full px-3 md:w-1/2">
             <input
               type="email"
-              class="form-control mt-2 mb-3 block w-full py-3 px-4 leading-tight text-noir"
+              class="form-control mt-2 mb-3 block w-full py-3 px-4 leading-tight text-white"
               placeholder="Email "
               name="email"
               required

@@ -31,6 +31,12 @@
   transform-origin: bottom left;
 }
 
+.form-control {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #666;
+}
+
 p,
 h4,
 h3,

@@ -84,7 +84,7 @@
             <input
               type="text"
               placeholder="Nom "
-              class="mt-2 mb-3 block w-full appearance-none rounded border border-b-2 border-none py-3 px-4 leading-tight text-noir focus:bg-white focus:outline-none"
+              class="form-control mt-2 mb-3 block w-full py-3 px-4 leading-tight text-noir"
               name="name"
               required
             />
@@ -93,7 +93,7 @@
           <div class="w-full px-3 md:w-1/2">
             <input
               type="email"
-              class="mt-2 mb-3 block w-full appearance-none rounded border border-red-500 bg-gray-200 py-3 px-4 leading-tight text-noir focus:bg-white focus:outline-none"
+              class="form-control mt-2 mb-3 block w-full py-3 px-4 leading-tight text-noir"
               placeholder="Email "
               name="email"
               required
@@ -105,7 +105,7 @@
           <textarea
             placeholder="Détailles de projet "
             rows="1"
-            class="mx-3 block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-200 dark:text-noir dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+            class="form-control mx-3 block w-full p-2.5 text-white"
             name="message"
             required
           ></textarea>
@@ -119,14 +119,25 @@
         >
           Envoyer
         </button>
-        <div class="inline-block">
+        <div class="mx-[5%] inline-block">
           <a class="font-bold text-white" href="mailto:valentinsa0701@gmail.com">
             <p class="font-bold text-white">Email <span class="font-light text-white">valentinsa0701@gmail.com</span></p>
           </a>
         </div>
 
-        <div class="inline-block">
-          <p class="font-bold text-white">Téléphone <span class="font-light text-white">valentinsa0701@gmail.com</span></p>
+        <div class="mx-[5%] inline-block">
+          <a class="font-bold text-white" href="tel:+33638881975">
+            <p class="font-bold text-white">Téléphone <span class="font-light text-white">valentinsa0701@gmail.com</span></p>
+          </a>
+        </div>
+
+        <div class="mx-[5%] inline-block">
+          <a
+            class="font-bold text-white"
+            href="https://www.google.ca/maps/place/25300+Doubs,+France/@46.9321769,6.3445314,14z/data=!3m1!4b1!4m5!3m4!1s0x478dbd2dbd17c7e3:0x7bd189a64a80664b!8m2!3d46.9276!4d6.349001?hl=fr"
+          >
+            <p class="font-bold text-white">Adresse <span class="font-light text-white">Doubs, France</span></p>
+          </a>
         </div>
       </form>
     </div>

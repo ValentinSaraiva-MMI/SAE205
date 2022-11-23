@@ -1,4 +1,4 @@
-# Projet basique Vue/router/Vite/Tailwind
+BANGER IN PROGRESS GUYS stay tuned 
 
 * [Installation de Vue avec Vite comme "build tool"](https://vuejs.org/guide/quick-start.html#with-build-tools)
 * [Vue router](https://router.vuejs.org/guide/)

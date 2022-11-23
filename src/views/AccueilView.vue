@@ -247,7 +247,9 @@
   </div>
 
   <div class="ml-96 mt-24 grid max-w-7xl grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(30rem,1fr))]">
-    <projetcard date="2022" titre="Rampage" tache="Intégration, UX design & Développement " image="public/images/mockup/rampage.webp" />
+    <a href="/rampage">
+      <projetcard date="2022" titre="Rampage" tache="Intégration, UX design & Développement " image="public/images/mockup/rampage.webp" />
+    </a>
     <projetcard date="2022" titre="Olympe" tache="Intégration & UX design " image="public/images/mockup/mochupolympe2.webp" />
     <projetcard date="2022" titre="Montain Climber " tache="Intégration WordPress " image="public/images/mockup/montainclimber.webp" />
     <projetcard date="2022" titre="Ça match ? " tache="Intégration & UX design " image="public/images/mockup/camatch.webp" />

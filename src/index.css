@@ -189,3 +189,11 @@ a.viewmore:hover .arrow {
   border-left: 7px solide white;
   right: -7px;
 }
+
+.svg-hover:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.svg-hover {
+  transition: transform 0.4s;
+}
